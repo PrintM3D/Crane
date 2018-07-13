@@ -8,11 +8,11 @@ button R3 C5 F0 T"Back to Info Screen" A"return"
 ; TODO: these two need to occupy the same display location; the firmware will
 ;   decide based on printing status which one to display
 button R15 C5 F0 T"Prepare »" A"menu" L"s_prepare"
-button R27 C5 F0 T"Tune »" A"menu" L"s_tune"
-button R39 C5 F0 T"Control »" A"menu" L"s_control"
+button R15 C5 F0 T"Tune »" A"menu" L"s_tune"
+button R27 C5 F0 T"Control »" A"menu" L"s_control"
 ; button R C5 F0 T"-Pause/Resume Print" A"M25"
-button R51 C5 F0 T"Print from SD »" A"menu" L"s_sdprint"
-button R63 C5 F0 T"Mount SD" A"M21"
-button R75 C5 F0 T"Unmount SD" A"M22"
+button R39 C5 F0 T"Print from SD »" A"menu" L"s_sdprint"
+button R51 C5 F0 T"Mount SD" A"M21"
+button R63 C5 F0 T"Unmount SD" A"M22"
 ; button R C F0 T"Info" A""
 

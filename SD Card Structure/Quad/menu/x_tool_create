@@ -15,6 +15,6 @@ button R63 C5 F0 T"Create tool 1 (D1)" A"M563 P1 D1 H1"
   ; 19 + 14 + 1 | 34 | 190
 button R75 C5 F0 T"Create tool 2 (D2)" A"M563 P2 D2 H1"
   ; 19 + 14 + 1 | 34 | 224
-button R97 C5 F0 T"Create tool 3 (D3)" A"M563 P3 D3 H1"
+button R87 C5 F0 T"Create tool 3 (D3)" A"M563 P3 D3 H1"
   ; 19 + 14 + 1 | 34 | 258
 

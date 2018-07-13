@@ -2,7 +2,7 @@
 ; text R3 C5 F0 T"Tool:"
 ; alter R3 C50 F0 D0 W25 N520
 ;
-text R15 C5 F0 T"Nozzle:"
+text R15 C5 F0 T"Hotend:"
 value R15 C50 F0 D1 W23 N79
 text R15 C80 F0 T"/"
 value R15 C87 F0 D0 W25 N179
@@ -12,10 +12,13 @@ value R27 C50 F0 D1 W23 N80
 text R27 C80 F0 T"/"
 value R27 C87 F0 D0 W25 N180
 ;
-text R39 C5 F0 T"Feed rate:"
-value R39 C50 F0 D0 W19 N500
+text R39 C5 F0 T"Fan:
+value R39 C50 F0 D0 W25 N399
+;
+text R51 C5 F0 T"Feed rate:"
+value R51 C50 F0 D0 W19 N500
 ;
 ; hold one selectable item, off-screen, so that a click brings you to e_main:
-button R3 C132 F0 T"Main Menu" A"menu" L"e_main"
+button R51 C132 F0 T"Get Started »" A"menu" L"e_main"
 ;
 
