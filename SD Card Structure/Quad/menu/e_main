@@ -1,20 +1,21 @@
 ;
-; button R51 C5 F0 T"Main Menu" A"return"
+; A no-action timeout will bring this back to "main"
+;
+button R51 C5 F0 T"Full Menu »" A"menu" L"s_top"
 ;
 text R3 C5 F0 T"Tool:"
 alter R3 C50 F0 D0 W25 N520
 ;
 text R15 C5 F0 T"Nozzle:"
-value R15 C50 F0 D W23 N79
+value R15 C50 F0 D1 W23 N79
 text R15 C80 F0 T"/"
 alter R15 C87 F0 D0 W25 N179
 ;
 text R27 C5 F0 T"Bed:"
-value R27 C50 F0 D0 W23 N80
+value R27 C50 F0 D1 W23 N80
 text R27 C80 F0 T"/"
 alter R27 C87 F0 D0 W25 N180
 ;
 text R39 C5 F0 T"Feed rate:"
 alter R39 C50 F0 D0 W19 N500
 ;
-
