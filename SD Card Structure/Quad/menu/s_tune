@@ -1,0 +1,16 @@
+;
+; This menu is displayed while the printer is printing; for the menu active
+; when idle, see "s_prepare"
+;
+button R3 C5 F0 T"Back to Main" A"return"
+text R15 C5 F0 T"Speed"
+text R27 C5 F0 T"Bed Z"
+text R39 C5 F0 T"Nozzle (#)"
+text R51 C5 F0 T"Bed"
+text R63 C5 F0 T"Fan Speed (#)"
+text R75 C5 F0 T"Flow (#)"
+button R87 C5 F0 T"-Babystep X"
+button R99 C5 F0 T"-Babystep Y"
+button R111 C5 F0 T"-Babystep Z"
+; button R C F1 T"Z Probe Offset"
+

@@ -1,0 +1,11 @@
+;
+button R3 C5 F0 T"Back to Main" A"return"
+button R15 C5 F0 T"Temperature" A"menu" L"x_temp"
+button R27 C5 F0 T"Motion" A"menu" L"x_motion"
+button R39 C5 F0 T"Filament" A"menu" L"x_filament"
+button R51 C5 F0 T"Retract" A"menu" L"x_retract"
+; button R C F0 T"Store settings"
+; button R C F0 T"Load settings"
+; button R C F0 T"Restore failsafe"
+; button R C F0 T"Init EEPROM"
+

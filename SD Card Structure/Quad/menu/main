@@ -1,0 +1,10 @@
+button R3 C5 F0 T"Info Screen" A"menu" L"info"
+; text R C5 F1 T"Debug" A""
+button R15 C5 F0 T"Prepare" A"menu" L"s_prepare"
+button R27 C5 F0 T"Tune" A"menu" L"s_tune"
+button R39 C5 F0 T"Control" A"menu" L"s_control"
+; button R C5 F0 T"-Pause/Resume Print" A"M25"
+button R51 C5 F0 T"Print from SD" A"menu" L"s_sdcard"
+; button R C5 F0 T"Init SD" A"M21"
+; button R C F0 T"Info" A""
+
