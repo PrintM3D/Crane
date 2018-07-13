@@ -3,7 +3,7 @@
 ;
 button R3 C5 F0 T"Go Back" A"return"
 ;
-text R21 C50 F0 T"TODO"
+value R21 C50 F0 D2 W29 N519
 ; value R30 C50 F0 D2 W60 N516 ; change this to the Z offset
 ;
 button R39 C10 F0 T"+0.05 mm" A"M290 Z+0.05 R1"

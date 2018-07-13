@@ -12,13 +12,15 @@ button R51 C5 F0 T"Auto Home Y" A"G28 Y" ; 12 + 6 + 1 | 19 | 102
 button R63 C5 F0 T"Auto Home Z" A"G28 Z" ; 12 + 6 + 1 | 19 | 121
 ; button R C5 F0 T"-Bed Leveling"
 ; button R C F0 T"-Unified Bed Leveling"
-button R75 C5 F0 T"*Set Home Offsets" A"G92 X120 Y25" ; 18 + 13 + 1 | 32 | 153
+button R75 C5 F0 T"*Set Home Offsets" A"G92 X120 Y25 Z250"
+; 18 + 13 + 1 | 32 | 153
 button R87 C5 F0 T"Disable Steppers" A"M18" ; 17 + 4 + 1 | 22 | 175
 ; button R C5 F0 T"Change Filament" 
 button R99 C5 F0 T"Cooldown »" A"menu" L"x_cooldown"
 button R111 C5 F0 T"Preheat PLA »" A"menu" L"x_prepla" ; 12 + 5 + 9 | 26 | 201
-button R123 C5 F0 T"Preheat ABS »" A"menu" L"x_preabs" ; 12 + 5 + 9 | 26 | 227
-button R135 C5 F0 T"Tool Setup »" A"menu" L"x_tool" ; 11 + 5 + 7 | 23 | 250
+button R123 C5 F0 T"Preheat ABS-R »" A"menu" L"x_preabr"
+button R135 C5 F0 T"Preheat ABS »" A"menu" L"x_preabs" ; 12 + 5 + 9 | 26 | 227
+button R147 C5 F0 T"Tool Setup »" A"menu" L"x_tool" ; 11 + 5 + 7 | 23 | 250
 ; button R C F0 T"Power ON/OFF"
 ; button R C F0 T"Autostart"
 

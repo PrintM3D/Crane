@@ -1,9 +1,11 @@
 ;
-; WARNING: lines must not be more than 80 characters long
+; WARNING: all lines in this file must be no longer than 80 characters
 ;
 ; TODO: make these point to macro files instead
-;   The "Nozzle and Bed" macro can call the "Nozzle Only" macro so G-Codes are not duplicated
+;   The "Nozzle and Bed" macro can call the "Nozzle Only" macro
+;   so that G-Codes are not duplicated
+;
 button R3 C5 F0 T"Go Back" A"return"
-button R15 C5 F0 T"Preheat ABS-R Nozzle and Bed" A"T0 G10 P0 S230 M140 S90 M106 S0.3"
-button R27 C5 F0 T"Preheat ABS-R Nozzle Only" A"T0 G10 P0 S230 M106 S0.3"
+button R15 C5 F0 T"Preheat ABS-R Nozzle and Bed" A"M98 PPreheat_ABR_HotEnd_Bed"
+button R27 C5 F0 T"Preheat ABS-R Nozzle Only" A"M98 PPreheat_ABR_HotEnd_Only"
 
