@@ -1,0 +1,5 @@
+; Prerequisite: Tool 0 is already defined
+T0
+G10 P0 S210
+M106 S50.0
+
