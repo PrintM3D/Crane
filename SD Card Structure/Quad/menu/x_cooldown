@@ -1,0 +1,8 @@
+;
+; WARNING: all lines in this file must be no longer than 80 characters
+;
+button R3 C5 F0 T"Go Back" A"return"
+button R15 C5 F0 T"Turn Off All Heaters (Hotend and Bed)" A"M98 PHeat_All_Off"
+button R27 C5 F0 T"Turn Off Hotend" A"M98 PHeat_Hotend_Off"
+button R39 C5 F0 T"Turn Off Bed" A"M98 PHeat_Bed_Off"
+

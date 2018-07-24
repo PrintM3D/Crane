@@ -1,0 +1,7 @@
+;
+button R3 C5 F0 T"Go Back" A"return"
+;
+button R15 C5 F0 T"Move 10 mm »" A"menu" L"x_move_e2_10p"
+button R27 C5 F0 T"Move 1 mm »" A"menu" L"x_move_e2_1p"
+button R39 C5 F0 T"Move 0.1 mm »" A"menu" L"x_move_e2_p1"
+

@@ -1,0 +1,4 @@
+; Prerequisite: Tool 0 is already defined
+M98 PPreheat_PLA_HotEnd_Only
+M140 S70
+

@@ -1,0 +1,8 @@
+;
+; WARNING: lines must not be more than 80 characters long
+;
+button R3 C5 F0 T"Go Back" A"return"
+;
+button R15 C5 F0 T"Create Tool »" A"menu" L"x_tool_create"
+button R27 C5 F0 T"Set Tool 0 Mix Ratio »" A"menu" L"x_tool_setmix"
+

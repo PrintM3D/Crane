@@ -1,0 +1,11 @@
+;
+; WARNING: all lines in this file must be no longer than 80 characters
+;
+; TODO: make these point to macro files instead
+;   The "Nozzle and Bed" macro can call the "Nozzle Only" macro
+;   so that G-Codes are not duplicated
+;
+button R3 C5 F0 T"Go Back" A"return"
+button R15 C5 F0 T"Preheat PLA Hotend and Bed" A"M98 PPreheat_PLA_Hotend_Bed"
+button R27 C5 F0 T"Preheat PLA Hotend Only" A"M98 PPreheat_PLA_Hotend_Only"
+

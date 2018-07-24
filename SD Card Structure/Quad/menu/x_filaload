@@ -1,0 +1,13 @@
+;
+; WARNING: lines must not be more than 80 characters long
+;
+button R3 C5 F0 T"Go Back" A"return"
+button R15 C5 F0 T"Load Filament 1 (D0)" A"T70 G0 E+60 F240"
+button R27 C5 F0 T"Load Filament 2 (D1)" A"T71 G0 E+60 F240"
+button R39 C5 F0 T"Load Filament 3 (D2)" A"T72 G0 E+60 F240"
+button R51 C5 F0 T"Load Filament 4 (D3)" A"T73 G0 E+60 F240"
+button R75 C5 F0 T"Unload Filament 2 (D1)" A"T71 G0 E+30 F180 G0 E-100 F1200"
+button R63 C5 F0 T"Unload Filament 1 (D0)" A"T70 G0 E+30 F180 G0 E-100 F1200"
+button R87 C5 F0 T"Unload Filament 3 (D2)" A"T72 G0 E+30 F180 G0 E-100 F1200"
+button R99 C5 F0 T"Unload Filament 4 (D3)" A"T73 G0 E+30 F180 G0 E-100 F1200"
+
