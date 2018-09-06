@@ -1,0 +1,22 @@
+;
+; A no-action timeout will also return us to the info screen ("main"),
+; but we also give the user the option of going there directly:
+button R3 C5 F0 T"Back to Info Screen" A"return"
+; WARNING: returns to e_main, timeout will eventually take to main
+;
+; text R C5 F1 T"Debug" A""
+; TODO: these two need to occupy the same display location; the firmware will
+;   decide based on printing status which one to display
+button R15 C5 F0 T"Prepare »" A"menu" L"s_prepare"
+button R15 C5 F0 T"Tune »" A"menu" L"s_tune"
+button R27 C5 F0 T"Control »" A"menu" L"s_control"
+; button R C5 F0 T"-Pause/Resume Print" A"M25"
+button R39 C5 F0 T"Print from SD »" A"menu" L"s_sdprint"
+button R39 C5 F0 T"Pause Print" A"M25|return|menu" L"s_top"
+button R39 C5 F0 T"Resume Print" A"M24|return|menu" L"s_top"
+button R51 C5 F0 T"Mount SD" A"M21|return|menu" L"s_top"
+button R51 C5 F0 T"Unmount SD" A"M22"
+  ; it's dead at this point, so we don't return > menu s_top after the unmount
+button R63 C5 F0 T"Cancel Print" A"M0 H1|return|menu" L"s_top"
+; button R C F0 T"Info" A""
+
