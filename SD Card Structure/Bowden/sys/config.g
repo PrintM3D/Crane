@@ -41,9 +41,9 @@ M574 X1 Y1 Z1 S1               ; Set active high endstops
 
 ; Heaters
 M305 P0 T100000 B4138 C0 R2200 ; Set thermistor + ADC parameters for heater 0
-M143 H0 S120                   ; Set temperature limit for heater 0 to 120C
+M143 H0 S120                   ;si Set temperature limit for heater 0 to 120C
 M305 P1 T100000 B4138 C0 R2200 ; set E0 thermistor parameters
-M143 H1 S260                   ; Set temperature limit for heater 1 to 260C
+M143 H1 S265                   ; Set temperature limit for heater 1 to 265C
 
 ; Fans
 M106 P0 S0 I0 F500             ; Set fan 0 value, no inversion, rate 500. This is the typical Setup for a Gcode Controlled Fan
