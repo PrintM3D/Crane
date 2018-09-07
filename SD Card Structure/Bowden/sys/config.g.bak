@@ -43,9 +43,9 @@ M208 X230 Y230 Z250 S0         ; Set axis maxima
 M574 X1 Y1 Z1 S1               ; Set active high endstops
 
 ; Heaters
-M305 P0 T100000 B4138 C0 R2200 ; Set thermistor + ADC parameters for heater 0
+M305 P0 T100000 B4288 C0 R2200 ; Set thermistor + ADC parameters for heater 0
 M143 H0 S120                   ;si Set temperature limit for heater 0 to 120C
-M305 P1 T100000 B4138 C0 R2200 ; set E0 thermistor parameters
+M305 P1 T100000 B4288 C0 R2200 ; set E0 thermistor parameters
 M143 H1 S265                   ; Set temperature limit for heater 1 to 265C
 
 ; Fans
@@ -63,3 +63,5 @@ G10 P0 R0 S0                   ; Set initial tool 0 active and standby temperatu
 ; Miscellaneous
 M501                           ; Load saved parameters from non-volatile memory
 T0                             ; Select first tool
+;Manual Leveling
+M558 P0

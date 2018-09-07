@@ -445,3 +445,93 @@ power up + 00:00:02 Event logging started
 power up + 00:00:02 Network running, IP address = 10.0.0.233
 power up + 00:00:06 HTTP client 10.0.0.50 login succeeded
 2018-09-07 02:33:08 Date and time set at power up + 00:00:06
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:11:22 HTTP client 10.0.0.50 login succeeded
+2018-09-07 03:46:48 Date and time set at power up + 00:11:22
+2018-09-07 04:37:21 HTTP client 10.0.0.50 login succeeded
+2018-09-07 04:49:26 Event logging stopped
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:00:06 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:09 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:11 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:13 HTTP client 10.0.0.50 login succeeded
+2018-09-07 04:49:40 Date and time set at power up + 00:00:13
+2018-09-07 05:02:48 Event logging stopped
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:00:04 HTTP client 10.0.0.50 login succeeded
+2018-09-07 05:02:53 Date and time set at power up + 00:00:04
+2018-09-07 05:20:44 HTTP client 10.0.0.50 login succeeded
+2018-09-07 05:50:07 Event logging stopped
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:00:06 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:12 HTTP client 10.0.0.50 login succeeded
+2018-09-07 05:50:20 Date and time set at power up + 00:00:12
+2018-09-07 05:51:08 Error: Heating fault on heater 1, temperature rising much more slowly than the expected 1.9°C/sec
+2018-09-07 05:51:56 Event logging stopped
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:00:09 HTTP client 10.0.0.50 login succeeded
+2018-09-07 05:52:07 Date and time set at power up + 00:00:09
+2018-09-07 05:55:18 Event logging stopped
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:01:01 HTTP client 10.0.0.50 login succeeded
+2018-09-07 05:56:20 Date and time set at power up + 00:01:01
+2018-09-07 05:56:44 Event logging stopped
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:00:05 HTTP client 10.0.0.50 login succeeded
+2018-09-07 05:56:50 Date and time set at power up + 00:00:05
+2018-09-07 06:00:52 Auto tune heater 1 completed in 200 sec
+Use M307 H1 to see the result, or M500 to save the result in config-override.g
+2018-09-07 06:25:40 HTTP client 10.0.0.50 login succeeded
+2018-09-07 06:44:31 Auto tune heater 0 completed in 1024 sec
+Use M307 H0 to see the result, or M500 to save the result in config-override.g
+2018-09-07 06:56:14 Started printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode
+2018-09-07 06:56:48 Resume-after-power-fail state saved
+2018-09-07 06:56:52 Printing paused
+2018-09-07 06:56:59 Cancelled printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode, print time was 0h 1m
+2018-09-07 06:57:00 Started printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode
+2018-09-07 06:57:15 Resume-after-power-fail state saved
+2018-09-07 06:57:21 Printing paused
+2018-09-07 06:57:27 Cancelled printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode, print time was 0h 0m
+2018-09-07 06:57:34 Started printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode
+2018-09-07 06:57:56 Resume-after-power-fail state saved
+2018-09-07 06:58:01 Printing paused
+2018-09-07 06:58:05 Cancelled printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode, print time was 0h 0m
+2018-09-07 06:58:10 Started printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode
+2018-09-07 06:58:55 Resume-after-power-fail state saved
+2018-09-07 06:58:58 Printing paused
+2018-09-07 06:58:58 Cancelled printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode, print time was 0h 1m
+2018-09-07 06:59:10 Started printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode
+2018-09-07 07:00:44 Resume-after-power-fail state saved
+2018-09-07 07:00:47 Printing paused
+2018-09-07 07:02:03 Cancelled printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode, print time was 0h 2m
+2018-09-07 07:04:46 Started printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode
+2018-09-07 08:20:13 Finished printing file 0:/gcodes/Cura_CB_PLA_q_test_tri.gcode, print time was 1h 15m
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Event logging started
+power up + 00:00:03 Network running, IP address = 10.0.0.233
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:00:47 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:52 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:55 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:01:04 HTTP client 10.0.0.50 login succeeded
+2018-09-07 11:08:59 Date and time set at power up + 00:01:04
+power up + 00:00:02 Event logging started
+power up + 00:00:03 Network running, IP address = 10.0.0.233
+power up + 00:00:02 Event logging started
+power up + 00:00:03 Network running, IP address = 10.0.0.233
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:00:56 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:01:14 HTTP client 10.0.0.50 login succeeded
+2018-09-07 12:27:27 Date and time set at power up + 00:01:14
