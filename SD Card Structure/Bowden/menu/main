@@ -4,29 +4,29 @@
 text R3 C5 F0 T"Tool:"
 alter R3 C32 F0 D0 W19 N520
 text R3 C40 F0 T"Fan:
-alter R3 C87 F0 D0 W19 N399
+value R3 C87 F0 D0 W19 N399
 ;
-text R15 C5 F0 T"Hotend:"
-value R15 C50 F0 D1 W27 N79
+text R3 C5 F0 T"Hotend:"
+value R3 C50 F0 D1 W27 N79
+text R3 C80 F0 T"/"
+alter R3 C87 F0 D1 W27 N100
+;
+text R15 C5 F0 T"Bed:"
+value R15 C50 F0 D1 W27 N80
 text R15 C80 F0 T"/"
-alter R15 C87 F0 D1 W27 N100
+value R15 C87 F0 D0 W27 N180
 ;
-text R27 C5 F0 T"Bed:"
-value R27 C50 F0 D1 W27 N80
-text R27 C80 F0 T"/"
-alter R27 C87 F0 D0 W27 N180
+text R27 C5 F0 T"Feed Rate:"
+value R27 C50 F0 D0 W19 N500
 ;
-text R39 C5 F0 T"Feed Rate:"
-alter R39 C50 F0 D0 W19 N500
-;
-text R51 C5 F0 T"IP:"
-alter R51 C20 F0 D0 W27 N530
-text R51 C48 F0 T"."
-alter R51 C50 F0 D0 W27 N531
-text R51 C77 F0 T"."
-alter R51 C79 F0 D0 W27 N532
-text R51 C107 F0 T"."
-alter R51 C109 F0 D0 W27 N533
+text R39 C5 F0 T"IP:"
+value R39 C20 F0 D0 W27 N530
+text R39 C48 F0 T"."
+value R39 C50 F0 D0 W27 N531
+text R39 C77 F0 T"."
+value R39 C79 F0 D0 W27 N532
+text R39 C107 F0 T"."
+value R39 C109 F0 D0 W27 N533
 ;
 ; hold one selectable item, off-screen, so that a click brings you to e_main:
-button R51 C132 F0 T"Get Started »" A"menu" L"e_main"
+button R51 C5 F0 T"Get Started »" A"menu" L"e_main"

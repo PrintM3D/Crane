@@ -1,7 +1,0 @@
-;
-; WARNING: lines must not be more than 80 characters long
-;
-button R3 C5 F0 T"Go Back" A"return"
-text R27 C5 F0 T"Fan Speed:"
-alter R27 C87 F0 D0 W27 N399
-

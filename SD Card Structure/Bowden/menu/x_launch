@@ -1,7 +1,0 @@
-;
-;
-;
-text R15 C5 F0 T"Starting your print..."
-button R51 C5 F0 T"Continue" A"return"
-;
-

@@ -432,3 +432,16 @@ power up + 02:43:50 HTTP client 10.0.0.86 login succeeded
 2018-09-04 17:49:01 HTTP client 10.0.0.242 attempted login with incorrect password
 2018-09-04 17:49:12 HTTP client 10.0.0.242 attempted login with incorrect password
 2018-09-04 17:49:15 HTTP client 10.0.0.242 login succeeded
+power up + 00:00:02 Event logging started
+power up + 00:00:03 Network running, IP address = 10.0.0.233
+power up + 00:00:36 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:39 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:42 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:52 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:55 HTTP client 10.0.0.50 login succeeded
+2018-09-07 02:30:02 Date and time set at power up + 00:00:55
+2018-09-07 02:33:01 Event logging stopped
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:00:06 HTTP client 10.0.0.50 login succeeded
+2018-09-07 02:33:08 Date and time set at power up + 00:00:06
