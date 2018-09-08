@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Crane Software -- Latest SD Card Release](README.md)
 
