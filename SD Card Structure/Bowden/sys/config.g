@@ -19,9 +19,9 @@ M555 P1                          ; Set firmware compatibility Mode to RRFW
 ;
 M550 PCraneBowden                ; Set machine name
 M551 Pconductor                  ; Set password
-M552 P10.0.0.233 S1              ; Enable network and set IP address
-M553 P255.255.255.0              ; Set netmask
-M554 P0.0.0.0                    ; Set gateway
+M552 P0.0.0.0 S1                    ; Enable network and set IP address
+;M553 P255.255.255.0              ; Set netmask
+;M554 P0.0.0.0                    ; Set gateway
 M586 P0 S1                       ; Enable HTTP
 M586 P1 S1                       ; Enable FTP
 M586 P2 S0                       ; Disable Telnet
