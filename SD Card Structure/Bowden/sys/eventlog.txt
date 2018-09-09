@@ -535,3 +535,30 @@ power up + 00:00:02 Network running, IP address = 10.0.0.233
 power up + 00:00:56 HTTP client 10.0.0.50 attempted login with incorrect password
 power up + 00:01:14 HTTP client 10.0.0.50 login succeeded
 2018-09-07 12:27:27 Date and time set at power up + 00:01:14
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Event logging started
+power up + 04:11:23 Network running, IP address = 10.0.0.233
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:00:34 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:37 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:39 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:00:44 HTTP client 10.0.0.50 login succeeded
+2018-09-08 11:06:43 Date and time set at power up + 00:00:44
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.233
+power up + 00:09:27 HTTP client 10.0.0.50 login succeeded
+2018-09-08 11:18:38 Date and time set at power up + 00:09:27
+2018-09-08 11:21:14 HTTP client 10.0.0.50 attempted login with incorrect password
+2018-09-08 11:21:18 HTTP client 10.0.0.50 login succeeded
+2018-09-08 11:27:46 Started printing file CB_PLA_3DBenchy.gcode
+2018-09-08 13:34:56 Finished printing file CB_PLA_3DBenchy.gcode, print time was 2h 7m
+power up + 00:00:02 Event logging started
+power up + 00:16:01 Network running, IP address = 10.0.0.233
+power up + 00:16:17 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:16:23 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:16:26 HTTP client 10.0.0.50 attempted login with incorrect password
+power up + 00:16:28 HTTP client 10.0.0.50 login succeeded
+2018-09-09 03:06:05 Date and time set at power up + 00:16:28
