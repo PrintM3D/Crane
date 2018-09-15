@@ -16,6 +16,6 @@ button R39 C5 F0 T"Pause Print" A"M25|return|menu" L"s_top"
 button R39 C5 F0 T"Resume Print" A"M24|return|menu" L"s_top"
 button R51 C5 F0 T"Mount SD" A"M21|return|menu" L"s_top"
 button R51 C5 F0 T"Unmount SD" A"M22"
-  ; it's dead at this point, so we don't return > menu s_top after the unmount
+; it's dead at this point, so we don't return > menu s_top after the unmount
 button R63 C5 F0 T"Cancel Print" A"M0 H1|return|menu" L"s_top"
-; button R C F0 T"Info" A""
+;
