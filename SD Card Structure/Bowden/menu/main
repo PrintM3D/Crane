@@ -29,4 +29,4 @@ text R51 C73 F0 T"."
 alter R51 C75 F0 D0 W18 N533
 ;
 ; hold one selectable item, off-screen, so that a click brings you to e_main:
-button R51 C119 F0 T"»" A"menu" L"e_main"
+button R51 C98 F0 T"Menu" A"menu" L"e_main"
