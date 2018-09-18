@@ -1,0 +1,15 @@
+;
+; WARNING: lines must not be more than 80 characters long
+;
+button R3 C5 F0 T"Go Back" A"return"
+;
+button R15 C5 F0 T"Set mix 0.25:0.25:0.25:0.25" A"M567 P0 E0.25:0.25:0.25:0.25"
+button R27 C5 F0 T"Set mix 1:0:0:0" A"M567 P0 E1:0:0:0"
+button R39 C5 F0 T"Set mix 0:1:0:0" A"M567 P0 E0:1:0:0"
+button R51 C5 F0 T"Set mix 0:0:1:0" A"M567 P0 E0:0:1:0"
+button R63 C5 F0 T"Set mix 0:0:0:1" A"M567 P0 E0:0:0:1"
+;
+button R75 C5 F0 T"Set mix 0.5:0.5" A"M567 P0 E0.5:0.5"
+button R87 C5 F0 T"Set mix 1:0" A"M567 P0 E1:0"
+button R99 C5 F0 T"Set mix 0:1" A"M567 P0 E0:1"
+

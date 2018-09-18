@@ -1,0 +1,34 @@
+;
+; This menu is displayed while the printer is printing; for the menu active
+; when idle, see "s_prepare"
+;
+button R3 C5 F0 T"Back to Main" A"return"
+;
+button R15 C5 F0 T"Feed Rate:" A"menu" L"x_tunefeed"
+value R15 C87 F0 D0 W19 N500
+;
+; text R C5 F0 T"Bed Z"
+;
+button R27 C5 F0 T"Hotend:" A"menu" L"x_temphadj"
+value R27 C87 F0 D0 W27 N179
+;
+button R39 C5 F0 T"Bed:" A"menu" L"x_tempbadj"
+value R39 C87 F0 D0 W27 N180
+;
+button R51 C5 F0 T"Fan Speed:" A"menu" L"x_tempfadj"
+value R51 C87 F0 D0 W19 N399
+;
+button R63 C5 F0 T"Flow (D0):" A"menu" L"x_tuned0"
+value R63 C87 F0 D0 W19 N400
+button R75 C5 F0 T"Flow (D1):" A"menu" L"x_tuned1"
+value R75 C87 F0 D0 W19 N401
+button R87 C5 F0 T"Flow (D2):" A"menu" L"x_tuned2"
+value R87 C87 F0 D0 W19 N402
+button R99 C5 F0 T"Flow (D3):" A"menu" L"x_tuned3"
+value R99 C87 F0 D0 W19 N403
+; button R C F0 T"Babystep X »" A"menu" L"z_deadend"
+; button R C F0 T"Babystep Y »" A"menu" L"z_deadend"
+button R111 C5 F0 T"Babystep Z »" A"menu" L"x_babystepz"
+; button R C F0 T"Z Probe Offset"
+; button R C F0 T"Change Filament »"
+
