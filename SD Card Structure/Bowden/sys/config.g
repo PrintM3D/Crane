@@ -15,7 +15,7 @@ M555 P1                          ; Set firmware compatibility Mode to RRFW
 
 M98 Pnetwork.g                   ; Call Network Module
 
-; Drives
+; Call Drive Module
 M569 P0 S1 D3 V0                 ; Drive 0 goes forwards
 M569 P1 S0 D3 V0                 ; Drive 1 goes backwards
 M569 P2 S0 D3 V0                 ; Drive 2 goes backwards
