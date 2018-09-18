@@ -1,25 +1,24 @@
-;
+; Dynamic Status Menu: e_main
 ; A no-action timeout will send user back to "main"
+; Created by M3D
+; for the Crane Quad
+text R3 C5 F0 T"IP:"
 ;
-button R51 C72 F0 T"Full Menu »" A"menu" L"s_top"
+alter R3 C20 F0 D0 W27 N530
 ;
-text R3 C5 F0 T"Tool:"
-alter R3 C50 F0 D0 W19 N520
+text R3 C48 F0 T"."
 ;
-text R15 C5 F0 T"Hotend:"
-value R15 C50 F0 D1 W27 N79
-text R15 C80 F0 T"/"
-alter R15 C87 F0 D1 W27 N179
+alter R3 C50 F0 D0 W27 N531
 ;
-text R27 C5 F0 T"Bed:"
-value R27 C50 F0 D1 W27 N80
-text R27 C80 F0 T"/"
-alter R27 C87 F0 D0 W27 N180
+text R3 C77 F0 T"."
 ;
-text R39 C5 F0 T"Fan:
-alter R39 C50 F0 D0 W19 N399
+alter R3 C79 F0 D0 W27 N532
 ;
-text R51 C5 F0 T"Feed Rate:"
-alter R51 C50 F0 D0 W19 N500
+text R3 C107 F0 T"."
 ;
-
+alter R3 C109 F0 D0 W27 N533
+;
+button R51 C5 F0 T"Back" A"menu" L"main"
+;
+button R51 C72 F0 T"Main Menu »" A"menu" L"s_top"
+;
