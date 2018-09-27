@@ -7,12 +7,13 @@
 button R3 C5 F0 T"Back to Main" A"return" ; 13 + 7 + 1 | 21 | 21
 button R15 C5 F0 T"Move Axis »" A"menu" L"x_move" ; 10 + 5 + 7 | 22 | 43
 button R27 C5 F0 T"Auto Home (All)" A"G28" ; 16 + 4 + 1 | 21 | 64
-button R39 C5 F0 T"Auto Home X" A"G28 X" ; 12 + 6 + 1 | 19 | 83
-button R51 C5 F0 T"Auto Home Y" A"G28 Y" ; 12 + 6 + 1 | 19 | 102
-button R63 C5 F0 T"Auto Home Z" A"G28 Z" ; 12 + 6 + 1 | 19 | 121
+button R39 C5 F0 T"Home X" A"G28 X" ; 12 + 6 + 1 | 19 | 83
+button R51 C5 F0 T"Home Y" A"G28 Y" ; 12 + 6 + 1 | 19 | 102
+button R63 C5 F0 T"Home Z" A"G28 Z" ; 12 + 6 + 1 | 19 | 121
+button R75 C5 F0 T"Test Movements" A"M98 0:/macros/Tuning/crane_movement_test.g" ;
 ; button R C5 F0 T"-Bed Leveling"
 ; button R C F0 T"-Unified Bed Leveling"
-button R75 C5 F0 T"*Set Home Offsets" A"G92 X120 Y25 Z250"
+;button R75 C5 F0 T"*Set Home Offsets" A"G92 X120 Y25 Z250"
 ; 18 + 13 + 1 | 32 | 153
 button R87 C5 F0 T"Disable Steppers" A"M18" ; 17 + 4 + 1 | 22 | 175
 ; button R C5 F0 T"Change Filament" 
