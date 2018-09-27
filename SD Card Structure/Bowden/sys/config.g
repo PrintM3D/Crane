@@ -1,12 +1,11 @@
-; RepRap Firmware by dc42 v2.02R3
+; Central Configuration (config.g)
 ; executed by the firmware on start-up
 ; Created by PrintM3D
 ; for the Crane Bowden
-
 ;
 ; Logging Settings
 ;
-M929 P"eventlog.txt" S1
+;M929 P"eventlog.txt" S1  	     ; Uncomment This Line to Enable Event Logging
 
 ; General preferences
 G90                              ; Send absolute coordinates...
@@ -15,7 +14,7 @@ M555 P1                          ; Set firmware compatibility Mode to RRFW
 
 M98 Pnetwork.g                   ; Call Network Module
 
-; Call Drive Module
+; Drives
 M569 P0 S1 D3 V0                 ; Drive 0 goes forwards
 M569 P1 S0 D3 V0                 ; Drive 1 goes backwards
 M569 P2 S0 D3 V0                 ; Drive 2 goes backwards
@@ -37,9 +36,9 @@ M208 X230 Y230 Z250 S0           ; Set axis maxima
 M574 X1 Y1 Z1 S1                 ; Set active high endstops
 
 ; Heaters
-M305 P0 T100000 B4020 C0 R2200   ; Set thermistor + ADC parameters for heater 0
+M305 P0 T100000 B4006		         ; Thermistor Config for NTC 100k
 M143 H0 S120                     ; Set temperature limit for heater 0 to 120C
-M305 P1 T100000 B4020 C0 R2200   ; set E0 thermistor parameters
+M305 P1 T100000 B4006   	       ; Thermistor Config for NTC 100k
 M143 H1 S265                     ; Set temperature limit for heater 1 to 265C
 
 ; Fans

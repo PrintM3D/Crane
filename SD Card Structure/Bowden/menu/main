@@ -1,15 +1,12 @@
 ; Created by PrintM3D
 ; for the Crane Bowden
 ; Main Menu
-text R3 C5 F0 T"Tool:"
-alter R3 C32 F0 D0 W19 N520
-text R3 C40 F0 T"Fan:
-alter R3 C87 F0 D0 W19 N300
 ;
-text R15 C5 F0 T"Hotend:"
-value R15 C50 F0 D1 W27 N0
-text R15 C80 F0 T"/"
-alter R15 C87 F0 D1 W27 N100
+; Displays Alterable Set Temp / Active Thermal Reading of Hotend.
+text R3 C5 F0 T"Hotend:"
+alter R3 C50 F0 D1 W27 N100
+text R3 C80 F0 T"/"
+value R3 C87 F0 D1 W27 N000
 ;
 text R27 C5 F0 T"Bed:"
 value R27 C50 F0 D1 W27 N80
@@ -28,5 +25,4 @@ alter R51 C55 F0 D0 W18 N532
 text R51 C73 F0 T"."
 alter R51 C75 F0 D0 W18 N533
 ;
-; hold one selectable item, off-screen, so that a click brings you to e_main:
 button R51 C98 F0 T"Menu" A"menu" L"e_main"
