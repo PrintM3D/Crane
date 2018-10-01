@@ -58,6 +58,9 @@ M106 P2 S1 I0 F500 H1 T45      ; Set fan 2 value, PWM signal inversion and frequ
 M98 P"0:/sys/StartupToolSetup"
 T0
 
+;Configure LCD Display
+M918 P1 E4
+
 ; Automatic saving after power loss is not enabled
 
 ; Custom settings are not configured

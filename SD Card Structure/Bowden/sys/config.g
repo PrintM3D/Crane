@@ -55,3 +55,6 @@ T0                               ; Select first tool
 
 ; Manual Bed Leveling
 M558 P0
+
+;Configure LCD Display
+M918 P1 E4
