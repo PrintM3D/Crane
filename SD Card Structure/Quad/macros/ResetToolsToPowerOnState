@@ -80,6 +80,4 @@ M563 P77 D-1 H-1
 M563 P78 D-1 H-1
 M563 P79 D-1 H-1
 
-M98 P"0:/sys/StartupToolSetup"
-T0
-
+M98 P"0:/sys/tools.g"
