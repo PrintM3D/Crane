@@ -2,8 +2,10 @@
 ; executed by the firmware on start-up
 ; Created by PrintM3D
 ; for the Crane Quad
-M98 Pgeneral.g
-M98 Pnetwork.g
-M98 Pmotion.g
-M98 Pthermal.g
-M98 Ptools.g
+
+
+M98 Pgeneral.g    ; Call General Configuration Module
+M98 Pnetwork.g    ; Call Network Module
+M98 Pmotion.g     ; Call Kinematics/Motor Module
+M98 Pthermal.g    ; Call Heater/Fan/Sensing Module
+M98 Ptools.g      ; Call Toolhead Module
