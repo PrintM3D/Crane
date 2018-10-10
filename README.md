@@ -9,4 +9,4 @@ This repository will contain:
 ## Important Links
 * [Official Documentation](https://crane.printm3d.com)
 * [Pointers to all M3D documentation](https://store.printm3d.com/pages/support)
-
+* [Most Current Configuration/Firmware from M3D](https://github.com/PrintM3D/Crane/releases)
