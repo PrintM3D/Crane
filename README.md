@@ -1,10 +1,14 @@
 # Crane
 
-This repository will contain:
-  Tracking of issues in a public forum, with issues upvoting, as a partial replacement for private email ticketing
-  Official slicer profiles and SD folder releases
-  Community supported slicer profiles and SD content
-  An updated Wiki, potentially, and 3D printed files, in time
+This repository currently features:
+* SD Card Content for the Crane Bowden, Dual, and Quad  
+* Slicer profiles for the Crane Bowden, Dual, and Quad for a variety of popular slicers.
+* Open issue tracking as opposed to prior closed systems such as email.
+* Ability for members of the community to submit their own contributions, variations, and other items in the form of Pull Requests.
+
+Soon to come: 
+*  3d printed calibration and tuning files.
+*  A growing library of pre-sliced single, dual, and quad color prints for use on their respective Crane.
 
 ## Important Links
 * [Official Documentation](https://crane.printm3d.com)
