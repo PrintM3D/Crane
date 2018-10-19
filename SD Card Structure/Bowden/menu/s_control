@@ -19,6 +19,6 @@ button R99 C5 F0 T"Cooldown »" A"menu" L"x_cooldown"
 button R111 C5 F0 T"Preheat PLA »" A"menu" L"x_prepla" ; 12 + 5 + 9 | 26 | 201
 button R123 C5 F0 T"Preheat ABS-R »" A"menu" L"x_preabr"
 button R135 C5 F0 T"Preheat ABS »" A"menu" L"x_preabs" ; 12 + 5 + 9 | 26 | 227
-button R147 C5 F0 T"Tool Setup »" A"menu" L"x_tool" ; 11 + 5 + 7 | 23 | 250
+button R147 C5 F0 T"Print" A"menu" L"s_sdprint" ; 11 + 5 + 7 | 23 | 250
 ; button R C F0 T"Power ON/OFF"
 ; button R C F0 T"Autostart"
