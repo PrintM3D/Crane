@@ -1,0 +1,9 @@
+; Test Print Menu
+; created by PrintM3D
+; for the Crane Bowden
+;
+button R3 C5 F0 T"Back to Main" A"return"
+button R15 C5 F0 T"Test Movement Bounds" A"M98" L"crane_movement_test.g"
+button R27 C5 F0 T"Basic Test Print" A"M32 0:/gcodes/Tuning/Basic_Test_PLA.g"
+button R39 C5 F0 T"Bed Test Print" A"M32 0:/gcodes/Tuning/Bed_Test_PLA.g"
+button R51 C5 F0 T"Tolerance Test Print(N/A)"

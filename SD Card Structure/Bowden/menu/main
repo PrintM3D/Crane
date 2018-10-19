@@ -18,6 +18,7 @@ alter R15 C87 F0 D1 W27 N180
 ;
 text R27 C5 F0 T"Rate:"
 alter R27 C50 F0 D0 W19 N500
+text R27 C66 T"%"
 ;
 text R39 C5 F0 T"IP:   "
 value R39 C20 F0 D0 W18 N530
@@ -29,6 +30,6 @@ text R39 C78 F0 T"."
 value R39 C80 F0 D0 W18 N533
 ;
 ; hold one selectable item, off-screen, so that a click brings you to e_main:
-text R51 C5 F0 T"M3D Crane"
+text R51 C5 F0 T"M3D Bowden"
 button V3 R51 C86 F0 T"Prepare" A"menu" L"s_control"
 button V4 R51 C98 F0 T"Tune" A"menu" L"s_tune"

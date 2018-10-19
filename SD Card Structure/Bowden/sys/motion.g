@@ -17,7 +17,6 @@ M201 X1200 Y1200 Z90 E120        ; Set accelerations (mm/s^2)
 M906 X1000 Y1000 Z1000 E1100 I30 ; Set motor currents (mA) and idle
 M84 S60                          ; Set idle timeout
 
-
 ; Axis Limits
 M208 X0 Y0 Z0 S1                 ; Set axis minima
 M208 X230 Y230 Z250 S0           ; Set axis maxima
