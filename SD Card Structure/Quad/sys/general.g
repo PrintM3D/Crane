@@ -10,3 +10,6 @@ M555 P1                        ; Set firmware compatibility to look like RepRapF
 
 ; Load From Memory
 M501                             ; Load saved parameters from non-volatile memory
+
+;Configure LCD Display
+M918 P1 E4

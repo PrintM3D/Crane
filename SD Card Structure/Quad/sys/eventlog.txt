@@ -1,0 +1,203 @@
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 192.168.1.175
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 192.168.1.175
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 192.168.1.175
+power up + 00:03:02 Warning: VIN under-voltage event (8.6V)
+power up + 00:00:02 Event logging started
+power up + 00:00:02 Network running, IP address = 192.168.2.169
+power up + 00:00:49 HTTP client 192.168.1.175 login succeeded
+2018-09-20 15:26:17 Date and time set at power up + 00:00:49
+2018-09-20 15:32:33 Error: Pop(): stack underflow!
+2018-09-20 15:32:35 Error: Pop(): stack underflow!
+2018-09-20 15:39:50 HTTP client 192.168.1.175 login succeeded
+2018-09-20 15:56:33 HTTP client 192.168.1.175 login succeeded
+2018-09-20 16:01:20 HTTP client 192.168.1.175 login succeeded
+2018-09-20 16:01:39 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:00:10 HTTP client 192.168.1.175 login succeeded
+2018-09-20 16:01:58 Date and time set at power up + 00:00:10
+2018-09-20 16:10:45 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:04:53 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 01:47:23 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:00:07 HTTP client 192.168.1.175 login succeeded
+2018-09-20 18:03:59 Date and time set at power up + 00:00:07
+2018-09-20 18:06:18 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:00:10 HTTP client 192.168.1.175 login succeeded
+2018-09-20 18:06:28 Date and time set at power up + 00:00:10
+2018-09-20 18:11:41 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:00:53 HTTP client 192.168.1.175 login succeeded
+2018-09-20 19:57:57 Date and time set at power up + 00:00:53
+2018-09-20 20:11:33 HTTP client 192.168.1.175 login succeeded
+2018-09-20 22:15:48 Started printing file CFFFP_cloth_vase.gcode
+2018-09-20 22:17:41 Resume-after-power-fail state saved
+2018-09-20 22:17:45 Printing paused at X92.3 Y92.6 Z0.3
+2018-09-20 22:17:46 Cancelled printing file CFFFP_cloth_vase.gcode, print time was 0h 2m
+2018-09-20 22:17:48 Started printing file CFFFP_cloth_vase.gcode
+2018-09-20 22:18:29 Resume-after-power-fail state saved
+2018-09-20 22:18:33 Printing paused at X82.0 Y114.0 Z0.3
+2018-09-20 22:19:17 Printing resumed
+2018-09-20 22:19:33 Resume-after-power-fail state saved
+2018-09-20 22:19:36 Printing paused at X92.0 Y92.3 Z0.3
+2018-09-20 22:20:53 Printing resumed
+2018-09-20 22:21:36 Resume-after-power-fail state saved
+2018-09-20 22:21:41 Printing paused at X136.1 Y138.1 Z0.3
+2018-09-20 22:27:06 Cancelled printing file CFFFP_cloth_vase.gcode, print time was 0h 2m
+2018-09-20 22:27:11 Started printing file CFFFP_cloth_vase.gcode
+2018-09-20 22:28:37 Resume-after-power-fail state saved
+2018-09-20 22:28:42 Printing paused at X133.8 Y140.5 Z0.3
+2018-09-20 22:45:09 Cancelled printing file CFFFP_cloth_vase.gcode, print time was 0h 1m
+2018-09-20 22:45:24 Started printing file CFFFP_cloth_vase.gcode
+2018-09-20 22:46:33 Resume-after-power-fail state saved
+2018-09-20 22:46:37 Printing paused at X92.8 Y93.2 Z0.6
+2018-09-20 22:51:35 Cancelled printing file CFFFP_cloth_vase.gcode, print time was 0h 1m
+2018-09-20 22:51:55 HTTP client 192.168.1.175 login succeeded
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:00:01 HTTP client 192.168.1.175 login succeeded
+2018-09-21 16:48:46 Date and time set at power up + 00:00:01
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:29:36 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:03:06 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 01:36:57 HTTP client 192.168.1.175 login succeeded
+2018-09-21 18:58:41 Date and time set at power up + 01:36:57
+2018-09-21 18:59:27 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:35:11 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:04:40 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:12:47 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 67:15:54 Warning: VIN under-voltage event (9.5V)
+power up + 00:00:01 Event logging started
+power up + 01:10:27 Network running, IP address = 192.168.2.169
+power up + 01:15:59 Network running, IP address = 192.168.2.169
+power up + 01:17:46 Warning: VIN under-voltage event (9.5V)
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Network running, IP address = 192.168.2.169
+power up + 00:00:01 Event logging started
+power up + 00:00:15 Network running, IP address = 192.168.1.45
+power up + 00:01:36 Network running, IP address = 192.168.1.45
+power up + 00:00:01 Event logging started
+power up + 00:00:04 Network running, IP address = 192.168.1.45
+power up + 00:00:17 HTTP client 192.168.1.65 login succeeded
+2018-10-02 20:19:58 Date and time set at power up + 00:00:17
+2018-10-02 20:20:19 Error: motor phase A disconnected on drivers 0
+2018-10-02 20:20:19 Error: motor phase B disconnected on drivers 0
+2018-10-02 20:20:23 Error: motor phase A disconnected on drivers 0
+2018-10-02 20:20:23 Error: motor phase B disconnected on drivers 0
+2018-10-02 20:20:27 Error: motor phase A disconnected on drivers 0
+2018-10-02 20:20:27 Error: motor phase B disconnected on drivers 0
+2018-10-02 20:20:31 Error: motor phase A disconnected on drivers 0
+2018-10-02 20:20:31 Error: motor phase B disconnected on drivers 0
+2018-10-02 20:20:35 Error: motor phase A disconnected on drivers 0
+2018-10-02 20:20:35 Error: motor phase B disconnected on drivers 0
+2018-10-02 20:21:45 Error: short-to-ground on drivers 2
+2018-10-02 20:21:49 Error: short-to-ground on drivers 2
+2018-10-02 20:21:52 HTTP client 192.168.1.65 login succeeded
+2018-10-02 20:21:53 Error: short-to-ground on drivers 2
+2018-10-02 20:21:57 Error: short-to-ground on drivers 2
+2018-10-02 20:22:01 Error: short-to-ground on drivers 2
+2018-10-02 20:22:05 Error: short-to-ground on drivers 2
+2018-10-02 20:22:05 Error: motor phase A disconnected on drivers 2
+2018-10-02 20:22:05 Error: motor phase B disconnected on drivers 2
+2018-10-02 20:22:09 Error: short-to-ground on drivers 2
+2018-10-02 20:22:09 Error: motor phase A disconnected on drivers 2
+2018-10-02 20:22:09 Error: motor phase B disconnected on drivers 2
+power up + 00:00:01 Event logging started
+power up + 00:00:04 Network running, IP address = 192.168.1.45
+power up + 00:00:05 HTTP client 192.168.1.65 login succeeded
+2018-10-02 20:22:21 Date and time set at power up + 00:00:05
+2018-10-02 20:33:41 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:04 Network running, IP address = 192.168.1.45
+power up + 00:00:09 HTTP client 192.168.1.65 login succeeded
+2018-10-02 20:33:54 Date and time set at power up + 00:00:09
+2018-10-02 20:58:29 Error: Multiple E parameters in G1 commands are not supported in absolute extrusion mode
+2018-10-02 21:07:19 HTTP client 192.168.1.65 login succeeded
+power up + 00:00:01 Event logging started
+power up + 00:00:15 Network running, IP address = 192.168.1.46
+power up + 00:49:37 Network running, IP address = 192.168.1.46
+power up + 00:00:01 Event logging started
+power up + 00:00:15 Network running, IP address = 192.168.1.46
+power up + 00:00:54 HTTP client 192.168.1.65 login succeeded
+2018-10-05 16:02:33 Date and time set at power up + 00:00:54
+2018-10-05 16:09:51 HTTP client 192.168.1.30 login succeeded
+2018-10-05 16:27:57 HTTP client 192.168.1.61 login succeeded
+2018-10-05 16:46:33 HTTP client 192.168.1.37 login succeeded
+2018-10-05 16:53:50 HTTP client 192.168.1.61 login succeeded
+power up + 00:00:01 Event logging started
+power up + 00:20:42 Network running, IP address = 10.0.0.78
+power up + 01:31:05 HTTP client 10.0.0.85 login succeeded
+2018-10-22 17:37:12 Date and time set at power up + 01:31:05
+2018-10-22 18:35:09 HTTP client 10.0.0.100 login succeeded
+2018-10-22 20:36:17 Network running, IP address = 10.0.0.78
+power up + 00:00:01 Event logging started
+power up + 12:16:16 Network running, IP address = 10.0.0.78
+power up + 12:16:33 HTTP client 10.0.0.85 login succeeded
+2018-10-23 10:53:35 Date and time set at power up + 12:16:33
+2018-10-23 10:54:07 HTTP client 10.0.0.85 login succeeded
+power up + 00:00:01 Event logging started
+power up + 00:00:03 Network running, IP address = 10.0.0.78
+power up + 00:00:01 Event logging started
+power up + 00:00:12 Warning: VIN under-voltage event (9.5V)
+power up + 00:00:01 Event logging started
+power up + 01:55:33 Network running, IP address = 10.0.0.78
+power up + 01:57:18 HTTP client 10.0.0.85 login succeeded
+2018-10-25 15:19:11 Date and time set at power up + 01:57:18
+power up + 00:00:01 Event logging started
+power up + 00:00:03 Network running, IP address = 10.0.0.78
+power up + 00:01:40 HTTP client 10.0.0.85 login succeeded
+2018-10-25 15:31:04 Date and time set at power up + 00:01:40
+power up + 00:00:01 Event logging started
+power up + 00:00:03 Network running, IP address = 10.0.0.78
+power up + 00:00:03 HTTP client 10.0.0.85 login succeeded
+2018-10-25 15:34:13 Date and time set at power up + 00:00:03
+2018-10-25 15:34:34 Warning: Tool 71 was not driven because its heater temperatures were not high enough or it has a heater fault
+2018-10-25 15:57:46 Event logging stopped
+power up + 00:00:01 Event logging started
+power up + 00:00:02 Network running, IP address = 10.0.0.78
+power up + 12:57:00 Warning: VIN under-voltage event (9.5V)
+power up + 00:00:01 Event logging started
+power up + 00:00:01 Event logging started
+power up + 00:00:03 Network running, IP address = 10.0.0.78
+power up + 00:00:43 HTTP client 10.0.0.85 login succeeded
+2018-10-26 19:38:26 Date and time set at power up + 00:00:43
+2018-10-27 13:21:54 HTTP client 10.0.0.85 login succeeded
+power up + 00:00:01 Event logging started
+power up + 00:00:05 Network running, IP address = 10.0.0.78
+power up + 00:00:07 HTTP client 10.0.0.85 login succeeded
+2018-10-27 13:46:44 Date and time set at power up + 00:00:07
+2018-10-27 14:16:34 HTTP client 10.0.0.85 login succeeded
+2018-10-27 15:18:09 HTTP client 10.0.0.85 login succeeded
+power up + 00:00:01 Event logging started
+power up + 00:00:03 Network running, IP address = 10.0.0.78
+power up + 00:40:41 Event logging stopped
