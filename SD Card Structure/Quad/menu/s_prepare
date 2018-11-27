@@ -11,12 +11,10 @@ button R39 C5 F0 T"Home Other »" A"menu" L"x_homing"
 ; button R39 C5 F0 T"Home X" A"G28 X" ; 12 + 6 + 1 | 19 | 83
 ; button R51 C5 F0 T"Home Y" A"G28 Y" ; 12 + 6 + 1 | 19 | 102
 ; button R63 C5 F0 T"Home Z" A"G28 Z" ; 12 + 6 + 1 | 19 | 121
-button R51 C5 F0 T"Load or Unload Filament »" A"menu" L"x_filaload"
-; button R C5 F0 T"-Bed Leveling"
-; button R C F0 T"-Unified Bed Leveling"
-; button R75 C5 F0 T"*Set Home Offsets" A"G92 X120 Y25 Z250"
-; 18 + 13 + 1 | 32 | 153
-button R63 C5 F0 T"Disable Steppers" A"M18" ; 17 + 4 + 1 | 22 | 175
+button R51 C5 F0 T"Load Filament »" A"menu" L"x_fload"
+button R63 C5 F0 T"Unload Filament »" A"menu" L"x_funload"
+button R75 C5 F0 T"Disable Steppers" A"M18" ; 17 + 4 + 1 | 22 | 175
+button R87 C5 F0 T"Motor Tests »" A"menu" L"x_motortest"
 ; button R C5 F0 T"Change Filament" 
-button R75 C5 F0 T"Cooldown »" A"menu" L"x_cooldown" ;
-button R87 C5 F0 T"Print" A"menu" L"s_sdprint" ; 11 + 5 + 7 | 23 | 250
+button R99 C5 F0 T"Cooldown »" A"menu" L"x_cooldown" ;
+button R111 C5 F0 T"Print" A"menu" L"s_sdprint" ; 11 + 5 + 7 | 23 | 250
