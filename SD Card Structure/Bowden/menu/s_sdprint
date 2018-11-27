@@ -1,9 +1,6 @@
-; File Print Dialogue
-; Created by M3D
-; For Crane Bowden
 ;
-button R3 C5 F0 T"Back" A"menu" L"main"
-;
-button R3 C72 F0 T"Main Menu »" A"menu" L"s_top"
-;
-files R15 F0 L"0:/gcodes/" A"M24"
+button R3 C5 F0 T"Back to Main" A"return"
+files R15 C5 F0 N4 I"0:/gcodes/Tuning" A"M32 #0|return|return|menu" L"x_launch"
+  ; only 4 lines fit for now
+  ; first return goes s_sdprint -> s_top
+  ; second return goes s_top -> e_main

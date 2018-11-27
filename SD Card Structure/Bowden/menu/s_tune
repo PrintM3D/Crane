@@ -19,7 +19,7 @@ button R39 C5 F0 V7 T"Pause" A"M25"
 button R39 C5 F0 V6 T"Resume" A"M24"
 ;
 button R51 C5 F0 T"Babystep Z »" A"menu" L"x_babystepz"
-button R63 C5 F0 T"Restart Print" A"M23|M24"
+button R63 C5 F0 T"Restart Print" A"M98" L"restart_active_print"
 ;
 ;button R75 C5 F0 T"Flow Rate" A"menu" L"x_tuned0"
 ;value R75 C87 F0 D0 W19 N400

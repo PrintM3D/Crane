@@ -1,8 +1,8 @@
 ; Created by PrintM3D
 ; for the Crane Bowden
 ; Main Menu
-;text R3 C5 F0 T"Tool:"
-;alter R3 C32 F0 D0 W19 N520
+text R3 C5 F0 T"Tool:"
+alter R3 C32 F0 D0 W19 N520
 text R3 C5 F0 T"Fan:
 alter R3 C5 F0 D0 W19 N300
 ;
@@ -31,5 +31,5 @@ value R39 C80 F0 D0 W18 N533
 ;
 ; hold one selectable item, off-screen, so that a click brings you to e_main:
 text R51 C5 F0 T"M3D Bowden"
-button V3 R51 C86 F0 T"Prepare" A"menu" L"s_control"
-button V4 R51 C98 F0 T"Tune" A"menu" L"s_tune"
+button V3 R51 C86 F0 T"Prepare" A"menu" L"s_prepare"
+button V4 R51 C86 F0 T"Tune" A"menu" L"s_tune"
