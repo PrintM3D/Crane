@@ -1,6 +1,6 @@
 ; x_motortest
 ;
-button R3 C5 F0 T"Test X Motor" A"M98" L"Motor_Test_X"
+button R3 C5 F0 T"Test X Motor" A"M98 0:/macros/Motor_Test_X"
 button R15 C5 F0 T"Test Y Motor" A"M98 0:/macros/Motor_Test_Y"
 button R27 C5 F0 T"Test Z Motor" A"M98 0:/macros/Motor_Test_Z"
 button R39 C5 F0 T"Test E0 Drive" A"M98 0:/macros/Motor_Test_E0"

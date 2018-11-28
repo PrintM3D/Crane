@@ -1,0 +1,10 @@
+; Crane Motor Test -- Test X Axis
+; Print M3D
+G91                                     ; Relative Positioning(toolhead)
+M564 H0									; Allow movement without homing.
+M302 P1                                   ; Allow Cold Extrusion
+
+; Toolhead Movement Axis Tests.
+; X test.
+G1 S1 X-9999.00 F300                     ; Move X in reverse slowly until endstop is triggered.
+G1 S2 X20 F500                          ; Reverse X Motor Direction momentarily to confirm endstop.

@@ -1,0 +1,12 @@
+; Crane Motor Test -- Test Extruder 0
+; Print M3D
+G91                                     	; Relative Positioning(toolhead)
+M83                                     	; Relative Extruder Movements
+M302 P1                                 	; Allow Cold Extrusion
+
+; Toolhead Movement Axis Tests.
+; E0 test.
+G1 S2 E-15.00:0:0:0 F300                    ; Move E1 in reverse slowly.
+G1 S2 E8:0:0:0 F500                         ; Move E1 forward momentarily to telegraph movement. 
+G1 S2 E-15.00:0:0:0 F300                    ; Move E1 in reverse for a second time.
+G1 S2 E8:0:0:0 F500                         ; Move E1 forward momentarily to telegraph movement again; testing complete.

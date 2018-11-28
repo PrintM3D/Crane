@@ -29,6 +29,6 @@ value R99 C87 F0 D0 W19 N403
 ; button R C F0 T"Babystep X »" A"menu" L"z_deadend"
 ; button R C F0 T"Babystep Y »" A"menu" L"z_deadend"
 button R111 C5 F0 T"Babystep Z »" A"menu" L"x_babystepz"
-button R123 C5 F0 V7 T"Pause" A"M25"
-;
-button R135 C5 F0 V6 T"Resume" A"M24"
+; button R C F0 T"Z Probe Offset"
+; button R C F0 T"Change Filament »"
+
