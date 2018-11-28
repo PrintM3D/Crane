@@ -1,0 +1,8 @@
+;
+button R3 C5 F0 T"Go Back" A"return"
+;
+value R30 C50 F0 D2 W60 N515
+;
+button R42 C20 F0 T"-1 mm" A"T0 M83 G0 E0:0:-1:0"
+button R42 C80 F0 T"+1 mm" A"T0 M83 G0 E0:0:+1:0"
+;

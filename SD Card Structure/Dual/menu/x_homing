@@ -1,0 +1,9 @@
+;
+; WARNING: lines must not be more than 80 characters long
+;
+button R3 C5 F0 T"Go Back" A"return"
+button R15 C5 F0 T"Home X" A"G28 X"
+button R27 C5 F0 T"Home Y" A"G28 Y"
+button R39 C5 F0 T"Home Z" A"G28 Z"
+button R51 C5 F0 T"Home All" A"G28"
+

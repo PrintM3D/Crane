@@ -1,0 +1,4 @@
+; Prerequisite: Tool 0 is already defined
+M98 PPreheat_ABS_HotEnd_Only
+M140 S95
+

@@ -1,0 +1,20 @@
+;
+; WARNING: lines must not be more than 80 characters long
+;
+button R3 C5 F0 T"Go Back" A"return"
+;
+button R15 C5 F0 T"Create tool 0 (D0:1:2:3)" A"M563 P0 D0:1:2:3 H1"
+  ; 25 + 20 + 1 | 46 | 46
+button R27 C5 F0 T"Create tool 0 (D0:2)" A"M563 P0 D0:2 H1"
+  ; 21 + 16 + 1 | 38 | 84
+button R39 C5 F0 T"Create tool 0 (D2:0)" A"M563 P0 D2:0 H1"
+  ; 21 + 16 + 1 | 38 | 122
+button R51 C5 F0 T"Create tool 0 (D0)" A"M563 P0 D0 H1"
+  ; 19 + 14 + 1 | 34 | 156
+button R63 C5 F0 T"Create tool 1 (D1)" A"M563 P1 D1 H1"
+  ; 19 + 14 + 1 | 34 | 190
+button R75 C5 F0 T"Create tool 2 (D2)" A"M563 P2 D2 H1"
+  ; 19 + 14 + 1 | 34 | 224
+button R87 C5 F0 T"Create tool 3 (D3)" A"M563 P3 D3 H1"
+  ; 19 + 14 + 1 | 34 | 258
+
