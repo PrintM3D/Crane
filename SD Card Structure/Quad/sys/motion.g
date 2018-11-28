@@ -16,7 +16,7 @@ M92 X80 Y80 Z400 E1960:1960:1960:1960 			     	 ; Set steps per mm
 M566 X900 Y900 Z90 E120               				 ; Set maximum instantaneous speed changes
 M203 X6000 Y6000 Z1200 E12000         				 ; Set maximum speeds (mm/min)
 M201 X1000 Y1000 Z90 E120             				 ; Set accelerations (mm/s^2)
-M906 X1000 Y1000 Z1000 E400:400:400:400 I30          		 ; Set motor currents (mA)
+M906 X1000 Y1000 Z1000 E480 I30          		 ; Set motor currents (mA)
 M84 S60                               				 ; Set idle timeout
 
 ; Axis Limits
