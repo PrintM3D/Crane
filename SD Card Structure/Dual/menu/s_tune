@@ -22,13 +22,7 @@ button R63 C5 F0 T"Flow (D0):" A"menu" L"x_tuned0"
 value R63 C87 F0 D0 W19 N400
 button R75 C5 F0 T"Flow (D1):" A"menu" L"x_tuned1"
 value R75 C87 F0 D0 W19 N401
-button R87 C5 F0 T"Flow (D2):" A"menu" L"x_tuned2"
-value R87 C87 F0 D0 W19 N402
-button R99 C5 F0 T"Flow (D3):" A"menu" L"x_tuned3"
-value R99 C87 F0 D0 W19 N403
-; button R C F0 T"Babystep X »" A"menu" L"z_deadend"
-; button R C F0 T"Babystep Y »" A"menu" L"z_deadend"
-button R111 C5 F0 T"Babystep Z »" A"menu" L"x_babystepz"
-button R123 C5 F0 V7 T"Pause" A"M25"
+button R87 C5 F0 T"Babystep Z »" A"menu" L"x_babystepz"
+button R99 C5 F0 V7 T"Pause" A"M25"
 ;
 button R135 C5 F0 V6 T"Resume" A"M24"
