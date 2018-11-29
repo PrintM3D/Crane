@@ -6,7 +6,6 @@
 
 ; Machine name and Password
 M550 PCraneBowden                ; Set machine name
-M551 Pconductor                  ; Set password
 
 ; Ethernet Configuration
 M552 P0.0.0.0 S1                 ; Enable Network and use Automatic DHCP
