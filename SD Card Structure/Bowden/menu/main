@@ -1,10 +1,6 @@
 ; Created by PrintM3D
 ; for the Crane Bowden
 ; Main Menu
-text R3 C5 F0 T"Tool:"
-alter R3 C32 F0 D0 W19 N520
-text R3 C5 F0 T"Fan:
-alter R3 C5 F0 D0 W19 N300
 ;
 text R3 C5 F0 T"Nozzle:"
 value R3 C50 F0 D1 W27 N0
@@ -16,9 +12,11 @@ value R15 C50 F0 D1 W27 N80
 text R15 C80 F0 T"/"
 alter R15 C87 F0 D1 W27 N180
 ;
-text R27 C5 F0 T"Rate:"
-alter R27 C50 F0 D0 W19 N500
-text R27 C66 T"%"
+text R27 C5 F0 T"FR:"
+alter R27 C22 F0 D0 W19 N500
+text R27 C40 T"%"
+;text R27 C48 F0 T"Fan:
+;alter R27 C87 F0 D0 W19 N301
 ;
 text R39 C5 F0 T"IP:   "
 value R39 C20 F0 D0 W18 N530
