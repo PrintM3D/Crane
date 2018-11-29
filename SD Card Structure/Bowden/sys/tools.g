@@ -10,4 +10,5 @@ G10 P0 R0 S0                     ; Set initial tool 0 active and standby tempera
 ; Manual Bed Leveling
 M558 P0
 
+M140 S0; Sets bed to Active state
 T0
