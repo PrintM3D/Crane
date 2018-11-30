@@ -3,9 +3,8 @@
 ; In the short term, it's meant as a nicety so the user can regain
 ; control of their LCD screen without needing to power cycle the printer
 ; (This issue is fixed once the no-action timeout is implemented)
-;
+; This file should be retained during menupatch merge per DH
 text R3 C5 F0 T"Sorry!"
 text R15 C5 F0 T"Feature is not implemented"
 button R51 C5 F0 T"Go Back" A"return"
 ;
-
