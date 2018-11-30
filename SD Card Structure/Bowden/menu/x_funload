@@ -1,0 +1,14 @@
+; x_funload menu
+; Created by PrintM3D
+; for the Crane Bowden
+button R3 C5 F0 T"Go Back" A"return"
+;
+text R15 C5 T"Preheat"
+button R15 C65 T"175C" A"M104 S175"
+;
+text R27 C5 T"Preheat"
+button R27 C65 T"150C" A"M104 S150"
+;
+text R39 C5 F0 T"Unload Filament"
+button R39 C65 F0 T"-20mm" A"M83 G0 E-20 F240"
+;
