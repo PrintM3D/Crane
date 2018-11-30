@@ -4,7 +4,7 @@
 button R3 C5 F0 T"Go Back" A"return"
 ;
 button R15 C5 F0 T"Hotend:" A"menu" L"x_temphadj"
-value R15 C87 F0 D0 W27 N179
+value R15 C87 F0 D0 W27 N100
 ;
 button R27 C5 F0 T"Bed:" A"menu" L"x_tempbadj"
 value R27 C87 F0 D0 W27 N180
@@ -15,4 +15,3 @@ value R39 C87 F0 D0 W27 N399
 button R51 C5 F0 T"Allow Cold Extrusion" A"M302 P1"
 button R63 C5 F0 T"Disallow Cold Extrusion" A"M302 P0"
 button R75 C5 F0 T"Clear Heater Faults (All)" A"M562"
-
