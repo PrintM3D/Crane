@@ -1,0 +1,8 @@
+; x_tuneflow -- submenu to adjust flow rate per drive.
+; Created by PrintM3D
+; for the Crane Dual
+button R3 C5 F0 T"Back to Main" A"return";
+text R15 C5 F0 T"Flow (D0)";
+alter R15 C87 F0 D0 W19 N400;
+text R27 C5 F0 T"Flow (D1):";
+alter R27 C87 F0 D0 W19 N401;
