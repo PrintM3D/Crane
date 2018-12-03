@@ -31,4 +31,4 @@ M98 P"0:/Macros/Motor_Test_Z"
 ;M98 P"0:/Macros/Motor_Test_E3"
 
 ; Call QC start up
-M98 Pqc.g
+;M98 Pqc.g
