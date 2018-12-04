@@ -4,32 +4,16 @@
 ;
 button R3 C5 F0 T"Back to Main" A"return"
 ;
-button R15 C5 F0 T"Feed Rate:" A"menu" L"x_tunefeed"
-alter R15 C100 F0 D0 W19 N500
-text R15 C116 T"%"
+button R15 C5 F0 T"Feed Rate" A"menu" L"x_tunefeed"
 ;
-button R27 C5 F0 T"Flow Rate:" A"menu" L"x_tunefeed"
-alter R27 C100 F0 D0 W19 N400
-text R15 C116 T"%"
+button R27 C5 F0 T"Flow Rate" A"menu" L"x_tuneflow"
 ;
-button R27 C5 F0 T"Thermal Tuning" A"menu" L"x_temp_tune"
+button R39 C5 F0 T"Thermal Tuning" A"menu" L"x_temp_tune"
 ;
-button R39 C5 F0 V7 T"Pause" A"M25"
+button R51 C5 F0 V7 T"Pause" A"M25"
 ;
-button R39 C5 F0 V6 T"Resume" A"M24"
+button R51 C5 F0 V6 T"Resume" A"M24"
 ;
-button R51 C5 F0 T"Babystep Z »" A"menu" L"x_babystepz"
-button R63 C5 F0 T"Restart Print" A"M98" L"restart_active_print"
+button R63 C5 F0 T"Babystep Z »" A"menu" L"x_babystepz"
+button R75 C5 F0 T"Restart Print" A"M98" L"restart_active_print"
 ;
-;button R75 C5 F0 T"Flow Rate" A"menu" L"x_tuned0"
-;value R75 C87 F0 D0 W19 N400
-;button R75 C5 F0 T"Flow (D1):" A"menu" L"x_tuned1"
-;value R75 C87 F0 D0 W19 N401
-;button R87 C5 F0 T"Flow (D2):" A"menu" L"x_tuned2"
-;value R87 C87 F0 D0 W19 N402
-;button R99 C5 F0 T"Flow (D3):" A"menu" L"x_tuned3"
-;value R99 C87 F0 D0 W19 N403
-
-; In case a probe is in Use, enable the following.
-; button R C F0 T"Z Probe Offset"
-; button R C F0 T"Change Filament »"

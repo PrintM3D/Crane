@@ -9,3 +9,6 @@ M98 Pnetwork.g    ; Call Network Module
 M98 Pmotion.g     ; Call Kinematics/Motor Module
 M98 Pthermal.g    ; Call Heater/Fan/Sensing Module
 M98 Ptools.g      ; Call Toolhead Module
+
+; Call QC start up
+;M98 Pqc.g

@@ -1,0 +1,6 @@
+; x_tuneflow -- submenu to adjust flow rate per drive.
+; Created by PrintM3D
+; for the Crane Bowden
+button R3 C5 F0 T"Back to Main" A"return";
+text R15 C5 F0 T"Flow (D0)";
+alter R15 C87 F0 D0 W19 N400;
