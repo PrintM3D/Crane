@@ -8,7 +8,7 @@ button R15 C5 F0 T"Feed Rate" A"menu" L"x_tunefeed"
 ;
 button R27 C5 F0 T"Flow Rate" A"menu" L"x_tuneflow"
 ;
-button R39 C5 F0 T"Thermal Tuning" A"menu" L"x_temp_tune"
+button R39 C5 F0 T"Thermal Tuning" A"menu" L"s_temp_tune"
 ;
 button R51 C5 F0 V7 T"Pause" A"M25"
 ;

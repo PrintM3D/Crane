@@ -1,0 +1,13 @@
+; s_temp_tune
+;
+button R3 C5 F0 T"Go Back" A"return"
+;
+text R15 C5 F0 T"Hotend:"
+alter R15 C87 F0 D0 W27 N179
+;
+text R27 C5 F0 T"Bed:"
+alter R27 C87 F0 D0 W27 N180
+;
+text R39 C5 F0 T"Fan Speed:"
+alter R39 C87 F0 D0 W27 N301
+;
