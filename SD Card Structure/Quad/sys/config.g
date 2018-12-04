@@ -20,15 +20,9 @@ M98 Ptools.g                     ; Call Toolhead Module
 ; Call Motor Test Macros one at a time.  This section can be reconfigured.
 ; Uncomment the Following Lines to Enable Tests
 ; Call each movement axis.
-M98 P"0:/Macros/Motor_Test_X"
-M98 P"0:/Macros/Motor_Test_Y"
-M98 P"0:/Macros/Motor_Test_Z"
-
-; Call extruders for Quad
-;M98 P"0:/Macros/Motor_Test_E0"
-;M98 P"0:/Macros/Motor_Test_E1"
-;M98 P"0:/Macros/Motor_Test_E2"
-;M98 P"0:/Macros/Motor_Test_E3"
+;M98 P"0:/Macros/Motor_Test_X"
+;M98 P"0:/Macros/Motor_Test_Y"
+;M98 P"0:/Macros/Motor_Test_Z"
 
 ; Call QC start up
 ;M98 Pqc.g
