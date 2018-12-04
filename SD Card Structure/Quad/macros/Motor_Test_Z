@@ -7,4 +7,4 @@ M302 P1                                   	; Allow Cold Extrusion
 ; Toolhead Movement Axis Tests.
 ; Z test.
 G1 S1 Z-9999.00 F1200                     	; Move X in reverse slowly until endstop is triggered.
-G1 S2 Z20 F500                          	; Reverse X Motor Direction momentarily to confirm endstop.
+G1 S2 Z20 F800                            	; Reverse X Motor Direction momentarily to confirm endstop.
