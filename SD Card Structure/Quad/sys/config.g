@@ -15,14 +15,5 @@ M98 Pmotion.g                    ; Call Kinematics/Motor Module
 M98 Pthermal.g                   ; Call Heater/Fan/Sensing Module
 M98 Ptools.g                     ; Call Toolhead Module
 
-; Home each axis individually post-startup.  Prepare for motor test.
-
-; Call Motor Test Macros one at a time.  This section can be reconfigured.
-; Uncomment the Following Lines to Enable Tests
-; Call each movement axis.
-;M98 P"0:/Macros/Motor_Test_X"
-;M98 P"0:/Macros/Motor_Test_Y"
-;M98 P"0:/Macros/Motor_Test_Z"
-
 ; Call QC start up
 ;M98 Pqc.g
