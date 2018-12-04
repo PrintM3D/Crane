@@ -16,9 +16,11 @@ value R15 C50 F0 D1 W27 N80
 text R15 C80 F0 T"/"
 alter R15 C87 F0 D1 W27 N180
 ;
-text R27 C5 F0 T"Rate:"
-alter R27 C50 F0 D0 W19 N500
-text R27 C66 T"%"
+text R27 C5 F0 T"FR:"
+alter R27 C22 F0 D0 W19 N500
+text R27 C38 T"%"
+text R27 C50 F0 T"Fan:"
+alter R27 C80 F0 D0 W19 N301
 ;
 text R39 C5 F0 T"IP:   "
 value R39 C20 F0 D0 W18 N530
