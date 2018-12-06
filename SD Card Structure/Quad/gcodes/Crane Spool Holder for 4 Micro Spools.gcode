@@ -13,7 +13,6 @@ G1 Z15.0 F6000 ;Move the platform down 15mm
 G92 E0
 G1 F200 E10
 G92 E0
-M98 Pretraction_settings.g
 M83 ;relative extrusion mode
 G1 F3600 E-8
 ;LAYER_COUNT:50
@@ -14374,7 +14373,7 @@ G0 F9000 X126.275 Y66.106
 G1 F3600 E-8
 M140 S0
 M82 ;absolute extrusion mode
-M98 Pend.g
+M98 Pcancel.g
 M83 ;relative extrusion mode
 M104 S0
 ;End of Gcode
