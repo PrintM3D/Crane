@@ -31,7 +31,6 @@ value R39 C60 F0 D0 W18 N532
 text R39 C78 F0 T"."
 value R39 C80 F0 D0 W18 N533
 ;
-; hold one selectable item, off-screen, so that a click brings you to e_main:
 text R51 C5 F0 T"M3D Dual"
-button V3 R51 C86 F0 T"Prepare" A"menu" L"s_prepare"
-button V4 R51 C86 F0 T"Tune" A"menu" L"s_tune"
+button V3 R51 C86 F0 T"Prepare" A"menu s_prepare" L"s_prepare"
+button V4 R51 C86 F0 T"Tune" A"menu s_tune" L"s_tune"
