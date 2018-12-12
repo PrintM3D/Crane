@@ -1,19 +1,12 @@
-;
+; Created by PrintM3D
+; For the Crane Series.
 ; This menu is displayed while the printer is printing; for the menu active
 ; when idle, see "s_prepare"
-;
 button R3 C5 F0 T"Back to Main" A"return"
-;
-button R15 C5 F0 T"Feed Rate" A"menu" L"x_tunefeed"
-;
-button R27 C5 F0 T"Flow Rate" A"menu" L"x_tuneflow"
-;
-button R39 C5 F0 T"Thermal Tuning" A"menu" L"x_temp_tune"
-;
+button R15 C5 F0 T"Feed Rate" A"menu x_tunefeed" L"x_tunefeed"
+button R27 C5 F0 T"Flow Rate" A"menu x_tuneflow" L"x_tuneflow"
+button R39 C5 F0 T"Thermal Tuning" A"menu x_temp_tune" L"x_temp_tune"
 button R51 C5 F0 V7 T"Pause" A"M25"
-;
 button R51 C5 F0 V6 T"Resume" A"M24"
-;
-button R63 C5 F0 T"Babystep Z »" A"menu" L"x_babystepz"
+button R63 C5 F0 T"Babystep Z »" A"menu x_babystepz" L"x_babystepz"
 button R75 C5 F0 T"Restart Print" A"M98" L"restart_active_print"
-;
