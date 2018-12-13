@@ -1,0 +1,10 @@
+; x_motortest
+;
+button R3 C5 F0 T"Go Back" A"return"
+button R15 C5 F0 T"Test X Motor" A"M98 P0:/macros/Motor_Test_X"
+button R27 C5 F0 T"Test Y Motor" A"M98 P0:/macros/Motor_Test_Y"
+button R39 C5 F0 T"Test Z Motor" A"M98 P0:/macros/Motor_Test_Z"
+;button R51 C5 F0 T"Test E0 Drive" A"M98 0:/macros/Motor_Test_E0"
+;button R63 C5 F0 T"Test E1 Drive" A"M98 0:/macros/Motor_Test_E1"
+;button R75 C5 F0 T"Test E2 Drive" A"M98 0:/macros/Motor_Test_E2"
+;button R87 C5 F0 T"Test E3 Drive" A"M98 0:/macros/Motor_Test_E3"
