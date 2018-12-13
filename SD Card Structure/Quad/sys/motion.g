@@ -1,6 +1,6 @@
 ; motion.g
 ; Created by PrintM3D
-; for the crane Quad.
+; For the Crane Quad.
 
 ; Drives
 M569 P0 S1 D3 V0                           ; Drive 0 goes backwards

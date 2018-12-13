@@ -1,12 +1,8 @@
-; WARNING -- FOR INTERNAL TESTING USE
 ; Configuration file for Duet Maestro (firmware version 2.02RC2 or newer)
 ; executed by the firmware on start-up
 ; Created by PrintM3D
-; For Crane Quad Testing
-; WARNING -- FOR INTERNAL TESTING USE
+; For Crane Quad
 ;
-; Please see the text file 'Motor Test 	Guide' in the root Internal
-; folder for in-depth information.  This file will begin testing on
 ; startup!
 
 M98 Pgeneral.g                   ; Call General Configuration Module
