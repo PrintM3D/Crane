@@ -10,6 +10,9 @@ Soon to come:
 *  3d printed calibration and tuning files.
 *  A growing library of pre-sliced single, dual, and quad color prints for use on their respective Crane.
 
+## Latest Configuration Release
+*  For the latest release of the Crane Configuration for your respective model, visit the [Releases Page](https://github.com/PrintM3D/Crane/releases)
+
 ## Important Links
 * [Official Documentation](https://crane.printm3d.com)
 * [Pointers to all M3D documentation](https://store.printm3d.com/pages/support)
