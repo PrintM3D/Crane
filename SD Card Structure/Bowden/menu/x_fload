@@ -10,5 +10,5 @@ text R27 C5 T"Preheat"
 button R27 C60 T"255C" A"M104 S255"
 ;
 text R39 C5 F0 T"Load Filament"
-button R39 C60 F0 T"+20mm" A"M83 G0 E20 F240"
+button R39 C70 F0 T"+20mm" A"M83 G0 E20 F240"
 ;

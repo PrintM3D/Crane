@@ -10,5 +10,5 @@ text R27 C5 T"Preheat"
 button R27 C65 T"150C" A"M104 S150"
 ;
 text R39 C5 F0 T"Unload Filament"
-button R39 C65 F0 T"-20mm" A"M83 G0 E-20 F240"
+button R39 C78 F0 T"-20mm" A"M83 G0 E-20 F240"
 ;
