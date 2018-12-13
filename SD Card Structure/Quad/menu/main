@@ -1,10 +1,6 @@
 ; Created by PrintM3D
 ; for the Crane Quad
 ; Main Menu
-;text R3 C5 F0 T"Tool:"
-;alter R3 C32 F0 D0 W19 N520
-text R3 C5 F0 T"Fan:
-alter R3 C5 F0 D0 W19 N300
 ;
 text R3 C5 F0 T"Nozzle:"
 value R3 C50 F0 D1 W27 N0
@@ -21,9 +17,6 @@ alter R27 C22 F0 D0 W19 N500
 text R27 C38 T"%"
 text R27 C50 F0 T"Fan:"
 alter R27 C80 F0 D0 W19 N301
-;
-;text R27 C50 F0 T"Fan:"
-;alter R27 C80 F0 D0 W19 N300
 ;
 text R39 C5 F0 T"IP:   "
 value R39 C20 F0 D0 W18 N530
