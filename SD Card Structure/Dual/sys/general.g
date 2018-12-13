@@ -1,6 +1,6 @@
 ; general.g
 ; Created by PrintM3D
-; for the Crane Quad
+; for the Crane Series.
 ;
 ; The file sets initial movement phases and sets compatibility to RRFW.
 ; General preferences
@@ -12,4 +12,4 @@ M555 P1                        ; Set firmware compatibility to look like RepRapF
 M501                             ; Load saved parameters from non-volatile memory
 
 ;Configure LCD Display
-M918 P1 E4
+M918 P1
