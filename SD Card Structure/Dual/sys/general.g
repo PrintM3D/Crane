@@ -1,6 +1,6 @@
 ; general.g
 ; Created by PrintM3D
-; for the Crane Quad
+; for the Crane Series.
 ;
 ; The file sets initial movement phases and sets compatibility to RRFW.
 ; General preferences

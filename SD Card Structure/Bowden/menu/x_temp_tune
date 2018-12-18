@@ -3,13 +3,13 @@
 ;
 button R3 C5 F0 T"Go Back" A"return"
 ;
-button R15 C5 F0 T"Hotend:" A"menu" L"x_temphadj"
+button R15 C5 F0 T"Hotend:" A"menu x_temphadj" L"x_temphadj"
 value R15 C87 F0 D0 W27 N179
 ;
-button R27 C5 F0 T"Bed:" A"menu" L"x_tempbadj"
+button R27 C5 F0 T"Bed:" A"menu x_tempbadj" L"x_tempbadj"
 value R27 C87 F0 D0 W27 N180
 ;
-button R39 C5 F0 T"Fan Speed:" A"menu" L"x_tempfadj"
+button R39 C5 F0 T"Fan Speed:" A"menu x_tempfadj" L"x_tempfadj"
 value R39 C87 F0 D0 W27 N399
 ;
 button R51 C5 F0 T"Allow Cold Extrusion" A"M302 P1"

@@ -1,14 +1,11 @@
-;
+; Axis Movement menu
+; Created by M3D
+; for the Crane Quad
 button R3 C5 F0 T"Go Back" A"return"
-;
-button R15 C5 F0 T"Move X »" A"G0 F3600|menu" L"x_move_x"
-button R27 C5 F0 T"Move Y »" A"G0 F3600|menu" L"x_move_y"
-button R39 C5 F0 T"Move Z »" A"menu" L"x_move_z"
-; button R C F0 T"Auto Home" A"G28" ; Marlin note: shown if not homed
-; button R C F0 T"Select E1/E2"
-button R51 C5 F0 T"Move E (mix) »" A"menu" L"G0 F75|x_move_emix"
-button R63 C5 F0 T"Move E1 (D0) »" A"menu" L"G0 F120|x_move_e0"
-button R75 C5 F0 T"Move E2 (D1) »" A"menu" L"G0 F120|x_move_e1"
-button R87 C5 F0 T"Move E3 (D2) »" A"menu" L"G0 F120|x_move_e2"
-button R99 C5 F0 T"Move E4 (D3) »" A"menu" L"G0 F120|x_move_e3"
-
+button R15 C5 F0 T"Move X »" A"menu x_move_x" L"x_move_x"
+button R27 C5 F0 T"Move Y »" A"menu x_move_y" L"x_move_y"
+button R39 C5 F0 T"Move Z »" A"menu x_move_z" L"x_move_z"
+button R51 C5 F0 T"Move Drive 1 (E0) »" A"menu x_move_e0" L"x_move_e0"
+button R63 C5 F0 T"Move Drive 2 (E1) »" A"menu x_move_e1" L"x_move_e1"
+button R75 C5 F0 T"Move Drive 3 (E2) »" A"menu x_move_e2" L"x_move_e2"
+button R87 C5 F0 T"Move Drive 4 (E3) »" A"menu x_move_e3" L"x_move_e3"

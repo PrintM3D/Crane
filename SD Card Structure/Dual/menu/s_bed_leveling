@@ -1,0 +1,6 @@
+; s_bed_leveling
+; Bed Leveling Sub Menu
+; Created by PrintM3D
+; for the Crane Series
+button R3 C5 F0 T"Go Back" A"return"
+button R15 C5 F0 T"Basic Bed Leveling" A"M98 P#0" L"/macros/basic_bed_lev"
