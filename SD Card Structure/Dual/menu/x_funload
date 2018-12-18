@@ -5,16 +5,13 @@
 button R3 C5 F0 T"Go Back" A"return"
 ;
 text R15 C5 T"Preheat"
-button R15 C60 T"175C" A"M104 S175"
+button R15 C60 T"130C" A"M104 S130"
 ;
-text R27 C5 T"Preheat"
-button R27 C60 T"130C" A"M104 S130"
+text R27 C5 F0 T"Unload 1 (D0)"
+button R27 C63 F0 T"-20mm" A"M83 G0 E-20:0 F240"
 ;
-text R39 C5 F0 T"Unload 1 (D0)"
-button R39 C63 F0 T"-20mm" A"M83 G0 E-20:0 F240"
+text R39 C5 F0 T"Unload 2 (D1)"
+button R39 C63 F0 T"-20mm" A"M83 G0 E0:-20 F240"
 ;
-text R51 C5 F0 T"Unload 2 (D1)"
-button R51 C63 F0 T"-20mm" A"M83 G0 E0:-20 F240"
-;
-text R63 C5 F0 T"Retract All"
-button R63 C63 F0 T"-20mm" A"M83 G0 E-20:-20 F240"
+text R51 C5 F0 T"Retract All"
+button R51 C63 F0 T"-20mm" A"M83 G0 E-20:-20 F240"
