@@ -5,7 +5,7 @@
 button R3 C5 F0 T"Go Back" A"return"
 ;
 text R15 C5 T"Preheat"
-button R15 C65 T"130C" A"M104 S130"
+button R15 C65 T"120C" A"M104 S120"
 ;
 text R27 C5 F0 T"Unload 0 (D0)"
 button R27 C65 F0 T"-20mm" A"M83 G0 E-20:0:0:0 F240"

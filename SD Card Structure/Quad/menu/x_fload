@@ -8,7 +8,7 @@ text R15 C5 T"Preheat"
 button R15 C60 T"175C" A"M104 S175"
 ;
 text R27 C5 T"Preheat"
-button R27 C60 T"255C" A"M104 S255"
+button R27 C60 T"235C" A"M104 S235"
 ;
 text R39 C5 F0 T"Load 0 (D0)"
 button R39 C60 F0 T"+20mm" A"M83 G0 E20:0:0:0 F240"
