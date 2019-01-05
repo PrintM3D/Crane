@@ -4,8 +4,9 @@ G91
 G28 Z0.000
 G90
 M83
+M140 S85
+M109 S235
 M190 S85
-M109 S245
 ;init bottom layer material
 ;mixed extrusion at 25%
 M567 P0 E1.0:0.0:0.0:0.0

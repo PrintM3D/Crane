@@ -4,9 +4,10 @@
 ;Layer height: 0.2
 ;Generated with Cura_SteamEngine 3.5.0
 T0
+M140 S85
+M104 S235
+M109 S235
 M190 S85
-M104 S255
-M109 S255
 M82 ;absolute extrusion mode
 G28 ;Home
 G1 Z15.0 F6000 ;Move the platform down 15mm

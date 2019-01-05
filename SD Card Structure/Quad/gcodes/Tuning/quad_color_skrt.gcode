@@ -3,9 +3,10 @@
 ;Filament used: 8.63754m
 ;Layer height: 0.2
 ;Generated with Cura_SteamEngine 3.3.1
+M140 S85
+M104 S235
+M109 S235
 M190 S85
-M104 S257
-M109 S257
 M82 ;absolute extrusion mode
 G28 ;Home
 G1 Z15.0 F6000 ;Move the platform down 15mm
