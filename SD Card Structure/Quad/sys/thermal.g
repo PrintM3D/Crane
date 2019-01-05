@@ -4,10 +4,10 @@
 
 ; This file declares heater and fan settings.
 ; Heaters
-M305 P0 T100000 B4006		         ; Thermistor Config for NTC 100k
-M143 H0 S120                     ; Set temperature limit for heater 0 to 120C
-M305 P1 T100000 B3988        	   ; Thermistor Config for NTC 100k
-M143 H1 S265                     ; Set temperature limit for heater 1 to 265C
+M305 P0 T100000 B4006		      			; Thermistor Config for NTC 100k
+M143 H0 S120                   				; Set temperature limit for heater 0 to 120C
+M305 P1 T100000 B5160 C1.890000e-7			; Thermistor Config for NTC 100k
+M143 H1 S265                  				; Set temperature limit for heater 1 to 265C
 
 ; Fans
 ; For Crane Quad: F0 is Heatsink Fan, F1 is Part Cooling fans, F2 is Case Fan
