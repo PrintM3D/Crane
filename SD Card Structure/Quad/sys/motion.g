@@ -12,7 +12,7 @@ M569 P5 S1 D3 V0			   ; Drive 5 (E2)
 M569 P6 S1 D3 V0			   ; Drive 6 (E3)
 
 M350 X16 Y16 Z16 E16:16:16:16 I1     		     	 ;micro-stepping
-M92 X80 Y80 Z400 E1960:1960:1960:1960		     	 ; Set steps per mm
+M92 X80 Y80 Z400 E2140:2140:2140:2140		     	 ; Set steps per mm
 M566 X900 Y900 Z90 E120               				 ; Set maximum instantaneous speed changes
 M203 X6000 Y6000 Z1200 E1800          				 ; Set maximum speeds (mm/min)
 M201 X1000 Y1000 Z90 E240             				 ; Set accelerations (mm/s^2)
