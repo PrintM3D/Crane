@@ -10,7 +10,7 @@ M569 P1 S0 D3 V0                 ; Drive 1 goes backwards
 M569 P2 S0 D3 V0                 ; Drive 2 goes backwards
 M569 P3 S1 D3 V0                 ; Drive 3 goes forwards
 M350 X32 Y32 Z16 E16 I1          ; Set Microstepping
-M92 X160 Y160 Z400 E96           ; Set steps per mm
+M92 X160 Y160 Z400 E99           ; Set steps per mm
 M566 X900 Y900 Z90 E240          ; Set Maximum Jerk (mm/min)
 M203 X9000 Y9000 Z1200 E3000     ; Set maximum speeds (mm/min)
 M201 X1200 Y1200 Z90 E240        ; Set accelerations (mm/s^2)
