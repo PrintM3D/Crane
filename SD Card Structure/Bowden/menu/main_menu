@@ -1,0 +1,7 @@
+; Created for the Crane Series
+; by PrintM3D
+;
+button R3 C5 F0 T"Back to Main" A"return"
+button R15 C5 F0 T"Prepare »" A"menu s_prepare" L"s_prepare"
+button R27 C5 F0 T"Tuning  »" A"menu s_tune" L"s_tune"
+button R39 C5 F0 T"SD Menu »" A"menu sd_menu" L"sd_menu"
