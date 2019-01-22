@@ -1,0 +1,23 @@
+; Allow Cold Extrudes for Initial Load
+M302 P1
+; Phase 1: Preheat Hotend
+M104 S145
+M291 S0 T45 P"Please Wait -- Heating."
+; Phase 2: Prompt User to Load 0
+M291 S3 P"Insert E0 & Select OK"
+M83 G0 E20:0:0:0 F240
+; Phase 3: Prompt User to Load 1
+M291 S3 P"Insert E1 & Select OK"
+M83 G0 E0:20:0:0 F240
+; Phase 4: Prompt User to Load 2
+M291 S3 P"Insert E2 & Select OK"
+M83 G0 E0:0:20:0 F240
+; Phase 4: Prompt User to Load 3
+M291 S3 P"Insert E3 & Select OK"
+M83 G0 E0:0:0:20 F240
+M291 S0 T45 P"Please Wait -- Heating."
+M104 S245
+M291 S3 P"Select OK to Load All"
+M83 G0 E20:20:20:20 F240
+; Disable Cold Extrusion
+M302 P0
