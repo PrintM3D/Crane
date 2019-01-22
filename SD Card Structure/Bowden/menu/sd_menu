@@ -1,0 +1,8 @@
+; Created by PrintM3D
+; For the Crane Series.
+; Created by PrintM3D
+; For the Crane Series.
+button R3 C5 F0 T"Back to Main" A"return"
+button R15 C5 F0 V10 T"Mount SD Card(LCD)" A"M21 P1"
+button R27 C5 F0 T"Print from SD" A"menu sd_ext_print" L"sd_ext_print"
+button R39 C5 F0 V11 T"Remove SD Card(LCD)" A"M22 P1"
