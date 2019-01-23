@@ -2,7 +2,6 @@
 ;
 ; Heating Phase12000
 M291 S0 T10 P"Heating. Please Wait."
-12000
 M140 S60
 G10 P0 S175
 M190 S60
