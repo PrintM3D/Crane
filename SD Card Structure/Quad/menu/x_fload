@@ -10,18 +10,14 @@ button R15 C60 T"175C" A"M104 S175"
 text R27 C5 T"Preheat"
 button R27 C60 T"235C" A"M104 S235"
 ;
-text R39 C5 F0 T"Load 0 (D0)"
-button R39 C60 F0 T"+20mm" A"M83 G0 E20:0:0:0 F240"
+button R39 C5 F0 T"Load Port 0" A"M83 G0 E23:0:0:0 F240"
 ;
-text R51 C5 F0 T"Load 1 (D1)"
-button R51 C60 F0 T"+20mm" A"M83 G0 E0:20:0:0 F240"
+button R51 C5 F0 T"Load Port 1" A"M83 G0 E0:28:0:0 F240"
 ;
-text R63 C5 F0 T"Load 2 (D2)"
-button R63 C60 F0 T"+20mm" A"M83 G0 E0:0:20:0 F240"
+button R63 C5 F0 T"Load Port 2" A"M83 G0 E0:0:28:0 F240"
 ;
-text R75 C5 F0 T"Load 3 (D3)"
-button R75 C60 F0 T"+20mm" A"M83 G0 E0:0:0:20 F240"
+button R75 C5 F0 T"Load Port 3" A"M83 G0 E0:0:0:23 F240"
 ;
-text R87 C5 F0 T"Extrude All"
-button R87 C60 F0 T"+20mm" A"M83 G0 E20:20:20:20 F240"
+button R87 C5 F0 T"Extrude All"
+text R87 C60 F0 T"(20mm)" A"M83 G0 E20:20:20:20 F240"
 ;
