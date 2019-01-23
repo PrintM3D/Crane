@@ -15,5 +15,5 @@ M98 P"0:/Macros/Motor_Test_Z"
 
 G1 X140 Y400 Z100 F6000; Moving bed & extruder to convenient location
 
-M140 S50; Heated Bed heating
+M140 S80; Heated Bed heating
 G10 P0 S150; Extruder heating
