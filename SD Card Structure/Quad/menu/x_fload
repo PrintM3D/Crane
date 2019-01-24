@@ -18,6 +18,6 @@ button R63 C5 F0 T"Load Port 2" A"M83 G0 E0:0:28:0 F240"
 ;
 button R75 C5 F0 T"Load Port 3" A"M83 G0 E0:0:0:23 F240"
 ;
-button R87 C5 F0 T"Extrude All"
-text R87 C60 F0 T"(20mm)" A"M83 G0 E20:20:20:20 F240"
+button R87 C5 F0 T"Extrude All" A"M83 G0 E20:20:20:20 F240"
+text R87 C60 F0 T"(20mm)" 
 ;
