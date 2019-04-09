@@ -1,8 +1,8 @@
-; x_move
+﻿; x_move
 ; Created by PrintM3D
 ; for the Crane Bowden.
 button R3 C5 F0 T"Go Back" A"return"
 button R15 C5 F0 T"Move X »" A"menu x_move_x" L"x_move_x"
 button R27 C5 F0 T"Move Y »" A"menu x_move_y" L"x_move_y"
 button R39 C5 F0 T"Move Z »" A"menu x_move_z" L"x_move_z"
-button R51 C5 F0 T"Move Drive 1 (E0) »" A"menu x_move_e0" L"x_move_e0"
+;button R51 C5 F0 T"Move Drive 1 (E0) »" A"menu x_move_e0" L"x_move_e0"
