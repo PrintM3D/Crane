@@ -7,19 +7,19 @@ value R3 C89 F0 D1 W27 N0
 ;
 text R15 C5 F0 T"Speed:"
 button R15 C35 F0 T"Fast" A"G0 F560"
-button R15 C57 F0 T"Slow" A"G0 F240"
+button R15 C57 F0 T"Slow" A"G0 F60"
 ;
 button R27 C5 F0 T"L: 0" A"M98 Pload_port0"
-button R27 C30 F0 T"L: 1" A"M98 Pload_port1"
+button R39 C5 F0 T"L: 1" A"M98 Pload_port1"
 ;
-button R39 C5 F0 T"L: 2" A"M98 Pload_port2"
+button R27 C30 F0 T"L: 2" A"M98 Pload_port2"
 button R39 C30 F0 T"L: 3" A"M98 Pload_port3"
 ;
 button R51 C5 F0 T"L-All" A"M98 Pload_all"
 ;
 button R27 C65 F0 T"UL: 0" A"M98 Punload_port0"
-button R27 C95 F0 T"UL: 1" A"M98 Punload_port1"
+button R39 C65 F0 T"UL: 1" A"M98 Punload_port1"
 ;
-button R39 C65 F0 T"UL: 2" A"M98 Punload_port2"
+button R27 C95 F0 T"UL: 2" A"M98 Punload_port2"
 button R39 C95 F0 T"UL: 3" A"M98 Punload_port3"
 button R51 C65 F0 T"UL-All" A"M98 Punload_all"
