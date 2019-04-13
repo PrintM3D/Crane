@@ -1,0 +1,1 @@
+Load in Cura using "Open Project" 
