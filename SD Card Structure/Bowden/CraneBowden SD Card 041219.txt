@@ -1,0 +1,1 @@
+041219 Updated: Includes cura settings and print_start and print_end gcode priming and finish files (required for cura settings); removed outdated filament folder because project files contain everything needed;
