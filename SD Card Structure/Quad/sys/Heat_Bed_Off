@@ -1,2 +1,1 @@
-;Turns off the heat bed.
-M140 S0
+M140 S-273.15; Turn status of T0's Heated Bed to "OFF"
