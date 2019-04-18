@@ -1,2 +1,1 @@
-T-1
-
+G10 P0 S-273.15 R-273.15; Turn status of T0's heaters to "OFF"

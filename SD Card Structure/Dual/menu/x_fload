@@ -1,21 +1,20 @@
 ;
 ; WARNING: lines must not be more than 80 characters long
 ;
-;
 button R3 C5 F0 T"Go Back" A"return"
+text R3 C57 F0 T"Nozzle:"
+value R3 C89 F0 D1 W27 N0
 ;
-text R15 C5 T"Preheat"
-button R15 C60 T"175C" A"M104 S175"
+text R15 C5 F0 T"Speed:"
+button R15 C35 F0 T"Fast" A"G0 F560"
+button R15 C57 F0 T"Slow" A"G0 F60"
 ;
-text R27 C5 T"Preheat"
-button R27 C60 T"245C" A"M104 S245"
+button R27 C5 F0 T"L: 0" A"M98 Pload_port0"
+button R39 C5 F0 T"L: 1" A"M98 Pload_port1"
 ;
-text R39 C5 F0 T"Load 1 (D0)"
-button R39 C60 F0 T"+20mm" A"M83 G0 E20:0 F240"
+button R51 C5 F0 T"L-All" A"M98 Pload_all"
 ;
-text R51 C5 F0 T"Load 2 (D1)"
-button R51 C60 F0 T"+20mm" A"M83 G0 E0:20 F240"
+button R27 C65 F0 T"UL: 0" A"M98 Punload_port0"
+button R39 C65 F0 T"UL: 1" A"M98 Punload_port1"
 ;
-text R63 C5 F0 T"Extrude All"
-button R63 C60 F0 T"+20mm" A"M83 G0 E20:20 F240"
-;
+button R51 C65 F0 T"UL-All" A"M98 Punload_all"

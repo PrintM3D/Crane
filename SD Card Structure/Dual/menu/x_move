@@ -1,4 +1,4 @@
-﻿; Axis Movement menu
+; Axis Movement menu
 ; Created by M3D
 ; for the Crane Dual
 button R3 C5 F0 T"Go Back" A"return"

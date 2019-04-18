@@ -1,7 +1,7 @@
 ; Configuration file for Duet Maestro (firmware version 2.02RC2 or newer)
 ; executed by the firmware on start-up
 ; Created by PrintM3D
-; for the Crane Quad
+; for the Crane Dual
 
 
 M98 Pgeneral.g    ; Call General Configuration Module
