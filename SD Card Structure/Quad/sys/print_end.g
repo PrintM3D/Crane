@@ -8,4 +8,3 @@ G0 Z10
 G90
 G0 Y230
 M84
-M83 ;relative extrusion mode
