@@ -1,8 +1,9 @@
-; bed level routine by DroneOn
+; special thanks to DroneOn for macro framework
+; April 18,2019
 ;
-; Heating Phase12000
+; Heating Phase
+T0
 M291 S0 T10 P"Heating. Please Wait."
-12000
 M140 S60
 G10 P0 S175
 M190 S60
@@ -42,11 +43,11 @@ M291 S3 P"Check Center Height."
 ; Prompt for adhesive.
 G1 Z20
 G1 Y230
-M291 S2 P"Prepare Bed(opt)."
+M291 S2 P"Prepare Bed (optional)"
 
 G1 X15 Y40
 ; Cooldown.
-M291 S3 T10 P"Cooling Down..."
+M291 S3 T10 R"OPTIONAL" P"Cool down?"
 
 M140 S0
 G10 P0 S0

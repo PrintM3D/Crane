@@ -1,0 +1,9 @@
+;M98 Pextrude_start_sound
+M564 S0 H0
+G0 X0.10 Z0.10;
+M83
+G0 E-20:-20 F560;
+G0 X-0.10 Z-0.10;
+M18 X Z
+M564 S1 H1
+;M98 Pextrude_stop_sound

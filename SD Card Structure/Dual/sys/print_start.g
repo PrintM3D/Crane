@@ -1,19 +1,51 @@
+;Dual Print Start
+;AG 04/12/19
+;Version 1.1
+;Primes all filaments and tests individual ports
+
 M291 P"Pre-Print Setup Starting"
 
-M290 R0 S0 ; clear babystepping
+M290 R0 S0 ;Clear babystepping
 
-G28 ;home all
+G28 ;Home printer
 
-G90 ;Absolute positioning
+G90 ;Confirming absolute motion coordinates
 
-G1 X0 Y2 F2000 ; move to left front edge
+G1 X1 Y30 Z5 F3600 ;Move to front left corner
 
-;Intro Line Near Left Edge
-G1 Z0.3 F1000 ; move down to start intro purge line
-G92 E0 ; zero extruder
-G1 Y150 E35 F750 ; intro line
-G1 Y175 F180 ; ooze it out buddy
-G1 Y200 F5000 ; wipe off the ooze
-;G1 Z5 F100 ; Lift off bed
-G92 E0 ;zero extruder
+G1 Z0.3 F3600 ;Drop to print height
+G92 E0 ;Zero the extruder
+M83 ;Switching to relative extrusion
+G1 Y170 E44.5 F750 ;All colors, just priming
+G1 Y195 F180 ;De-pressurizing & oozing
+
+M567 P0 E0:1 ;Switching to port 1
+
+G1 E-1 F3600 ;Retracting port 1
+
+M567 P0 E1:0 ;Switching to port 0 only
+
+;No need to prime, wasn't retracted
+
+G1 X3.5 E1.6 F750 ;Starting port 0
+G1 Y55 E44.5 F750 ;Port 0 only line
+G1 Y30 F180 ;Port 0 de-pressurizing & oozing
+
+G1 E-1 F3600 ;Retracting port 0
+
+M567 P0 E0:1:0:0 ;Switching to port 1 only
+
+G1 E1 F1800 ;Priming port 1
+
+G1 X6 E1.6 F750 ;Starting port 1
+G1 Y170 E44.5 F750 ;Port 1 only line
+G1 Y195 F180 ;Port 1 de-pressurizing & oozing
+G1 Y205 F4800 ;Wiping
+
+G1 E-1 F3600 ;Retracting port 1
+
+M567 P0 E0.5:0.5 ;Resetting to default mixing ratio
+
+G92 E0 ;Zero extruder
+
 M291 P"Beginning Print"

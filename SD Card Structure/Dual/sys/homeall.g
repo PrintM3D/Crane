@@ -2,7 +2,7 @@
 ; Called to Home All Axes
 ;
 ; Created by PrintM3D
-; for the Crane Bowden
+; for the Crane Dual
 ; September 23rd 2018
 
 G91               ; relative positioning
