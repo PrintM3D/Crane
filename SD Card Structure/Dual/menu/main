@@ -28,5 +28,6 @@ text R39 C78 F0 T"."
 value R39 C80 F0 D0 W18 N533
 ;
 text R51 C5 F0 T"M3D Dual"
+button V4 R51 C60 F0 T"Tune" A"menu s_tune" L"s_tune"
+text V4 R51 C82 F0 T"/"
 button V3 R51 C86 F0 T"Prepare" A"menu s_prepare" L"s_prepare"
-button V4 R51 C86 F0 T"Tune" A"menu s_tune" L"s_tune"
