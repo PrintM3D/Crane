@@ -13,7 +13,8 @@ Soon to come:
 *  A growing library of pre-sliced single, dual, and quad color prints for use on their respective Crane.
 
 ## Latest Configuration Release
-*  For the latest release of the Crane Configuration for your respective model, visit the [Releases Page](https://github.com/PrintM3D/Crane/releases)
+*  For the latest releases of ALL the Crane Configuration for your respective model, click the green download link above.
+*  For the official releases of the Crane Configuration for your respective model, visit the [Releases Page](https://github.com/PrintM3D/Crane/releases)
 
 ## Important Links
 * [Official Documentation](https://crane.printm3d.com)
