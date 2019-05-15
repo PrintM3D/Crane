@@ -1,1 +1,3 @@
+051519 A series of updates to improve the thermal performance of duals.
+
 041219 Updated to include print_start and print_end gcode priming and finish files (required for cura settings)
