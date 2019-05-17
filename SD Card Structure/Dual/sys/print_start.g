@@ -33,7 +33,7 @@ G1 Y30 F180 ;Port 0 de-pressurizing & oozing
 
 G1 E-1 F3600 ;Retracting port 0
 
-M567 P0 E0:1:0:0 ;Switching to port 1 only
+M567 P0 E0:1 ;Switching to port 1 only
 
 G1 E1 F1800 ;Priming port 1
 

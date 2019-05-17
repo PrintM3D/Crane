@@ -11,7 +11,7 @@ G1 Z5 F600 S2
 G1 Z-450 F120 S1
 
 ; Uncomment the following lines to lift Z after probing
-G91             ; relative positioning
-G1 Z5 F120 S2   ; lift Z relative to current position
+;G91             ; relative positioning
+;G1 Z0 F120 S2   ; lift Z relative to current position
 G90             ; absolute positioning
 

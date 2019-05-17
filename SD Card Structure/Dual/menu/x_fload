@@ -6,8 +6,8 @@ text R3 C57 F0 T"Nozzle:"
 value R3 C89 F0 D1 W27 N0
 ;
 text R15 C5 F0 T"Speed:"
-button R15 C35 F0 T"Fast" A"G0 F560"
-button R15 C57 F0 T"Slow" A"G0 F60"
+button R15 C35 F0 T"Fast" A"G0 F360"
+button R15 C57 F0 T"Slow" A"G0 F180"
 ;
 button R27 C5 F0 T"L: 0" A"M98 Pload_port0"
 button R39 C5 F0 T"L: 1" A"M98 Pload_port1"
