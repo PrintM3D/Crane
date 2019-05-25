@@ -1,3 +1,5 @@
+052519 A series of small updates to optimize things like Z probing by itself for speedy z=0 positioning of the limit switch using the LCD menu home other > Z > repeat;  Better extrusion steps/mm for the average dual printer
+
 051519 A series of updates to improve the thermal performance of duals.  Added a series of improvements focusing on dual mix settings and better loading procedures.
 
 041219 Updated to include print_start and print_end gcode priming and finish files (required for cura settings)
