@@ -1,0 +1,4 @@
+; Heat printer in preparation for filament loading / leveling 
+M104 S235
+M140 S80
+M99

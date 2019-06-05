@@ -1,4 +1,9 @@
-060519 Updates: Includes default firmware retraction code in motion.g
-Updates: Modified loading / Unloading code to standardize commands accross crane lines.
+060519 Updates: 
+Added default firmware retraction code in motion.g
+Added Menu option for heating bed and nozzle to preset ABSR temps
+Modified loading / Unloading code to standardize commands accross crane lines.
+Modified Max Fan Speed to prevent user issues.  Advanced users can change the X paramter in thermal.g under part cooling fan
+Modified Max extrusion speed to reduce user issues.
+Modified HomeZ for faster and easier Z limit switch positioning and manual bed screw leveling
 
 050819 Updated to include print_start and print_end gcode priming and finish files (required for cura settings)
