@@ -1,0 +1,4 @@
+060519 Updates: Includes default firmware retraction code in motion.g
+Updates: Modified loading / Unloading code to standardize commands accross crane lines.
+
+050819 Updated to include print_start and print_end gcode priming and finish files (required for cura settings)

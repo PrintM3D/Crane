@@ -1,3 +1,5 @@
+060519 Updates: Includes default firmware retraction code in motion.g
+
 060419 Modified max E steps to prevent grind through in long prints with bad reprime settings
 
 052519 A series of small updates to optimize things like Z probing by itself for speedy z=0 positioning of the limit switch using the LCD menu home other > Z > repeat;  Better extrusion steps/mm for the average dual printer
