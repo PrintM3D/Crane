@@ -1,3 +1,5 @@
+060619 Added: Auto tuning example code macro for Bowden
+
 060519 Updates: Includes default firmware retraction code in motion.g
 
 041219 Updated: Includes cura settings and print_start and print_end gcode priming and finish files (required for cura settings); removed outdated filament folder because project files contain everything needed;
