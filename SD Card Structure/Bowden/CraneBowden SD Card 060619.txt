@@ -1,4 +1,5 @@
 060619 Added: Auto tuning example code macro for Bowden
+Updated: Better preset tuning paramters
 
 060519 Updates: Includes default firmware retraction code in motion.g
 
