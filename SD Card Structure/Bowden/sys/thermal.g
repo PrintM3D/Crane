@@ -11,6 +11,6 @@ M143 H1 S265                     ; Set temperature limit for heater 1 to 265C
 
 ; Fans
 ; For Crane Bowden: F0 is Heatsink Fan, F1 is Part Cooling fans, F2 is Case Fan
-M106 P0 S0.8 T45 H1 F50                ; Set Heatsink Fan F0 to Thermostatic, with speed reduction to 80%
+M106 P0 S0.7 T45 H1 F50                ; Set Heatsink Fan F0 to Thermostatic, with speed reduction to prevent excessive cooling with unshielded block
 M106 P1 H-1 F50                   ; Set Part Cooler Fans F1 to Gcode Control
 M106 P2 S0.8 F50                  ; Set case fan always on at 80%
