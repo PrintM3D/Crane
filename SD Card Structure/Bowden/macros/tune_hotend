@@ -1,0 +1,10 @@
+;This file is an example of re-tuning the hot end (H1 on the Bowden).  
+;It is suggested to set the following subsystems to near the state they will be in during prints:
+;1 - Bed temperature m140 s65 sets the bed to 65C
+;2 - Print cooling fan  m106 p1 s0.5 sets this fan to 50% speed
+;3 - Toolhead cooling fan (automatic with thermostatic defaults)
+;4 - Use a target temperature near the printing temperatures commonly used, i.e. 215C or 255C or in between.
+
+M140 S65
+M106 P1 S0.5
+M303 H1 P1 S240
