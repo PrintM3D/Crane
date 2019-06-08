@@ -25,4 +25,4 @@ M208 X230 Y230 Z250 S0                				 ; Set axis maxima
 M574 X1 Y1 Z1 S1                      				 ; Set active High Endstops
 
 ; Firmware Retraction Defaults
-M207 S2.0 R0.0 F300 T300 Z0 ;S sets retraction and reprime in mm.  F sets feed rate.  F300 and S2.0 are max recommended.  Ignore this setting in gcode without G10/G11 calls.
+M207 S1.5 R0.0 F240 T240 Z0 ;S sets retraction and reprime in mm.  F sets feed rate.  F300 and S2.0 are max recommended.  Ignore this setting in gcode without G10/G11 calls.
