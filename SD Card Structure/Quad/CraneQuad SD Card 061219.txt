@@ -1,3 +1,7 @@
+061219 Updated thermal + about 3C to better reflect the fleet and upped in preparation for longer stainless MK4 nozzles
+
+060819 Updated example print with firmware retraction further
+
 060519 Updates: 
 Added default firmware retraction code in motion.g
 Added Menu option for heating bed and nozzle to preset ABSR temps
