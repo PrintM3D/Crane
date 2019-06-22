@@ -1,3 +1,5 @@
+062219 Replaced:  X homing files and Z homing files to fix one corrupt file and Z homing sequence issue that causes Z to move up because other axes arent homed
+
 060619 Added: Auto tuning example code macro for Bowden
 Updated: Better preset tuning paramters
 
