@@ -1,3 +1,6 @@
+062719 Improving prime start so it is quicker, easier to remove, not brittle due to crystalization from low pressure
+increase idle current for better backpressure resistance when motor ports aren't used.
+
 060519 Updates: Includes default firmware retraction code in motion.g
 
 060419 Modified max E steps to prevent grind through in long prints with bad reprime settings
