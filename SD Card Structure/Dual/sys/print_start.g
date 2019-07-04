@@ -20,11 +20,11 @@ M83 ;Switching to relative extrusion
 G1 Y170 E36.5 F600 ;All colors, just priming
 
 M567 P0 E0:1 
-G1 X2.25 E-1 F120 ;Starting port 0 depressurizing slightly retracting previous
+G1 X2.25 E-2 F120 ;Starting port 0 depressurizing slightly retracting previous
 M567 P0 E1:0 ;Switching to port 0 
 G1 Y55 E36.5 F600 ;Port 0 only line
 
-G1 X3.5 E-1 F120 ;Starting port 1 depressurizing slightly
+G1 X3.5 E-2 F120 ;Starting port 1 depressurizing slightly
 M567 P0 E0:1 ;Switching to port 1 
 G1 Y170 E36.5 F600 ;Port 1 only line
 

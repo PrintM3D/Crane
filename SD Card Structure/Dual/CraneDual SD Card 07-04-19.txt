@@ -1,3 +1,5 @@
+070419 Necessary improvements to print start and idle current to decrease grind through due to backpressure between ports
+
 062719 Improving prime start so it is quicker, easier to remove, not brittle due to crystalization from low pressure
 increase idle current for better backpressure resistance when motor ports aren't used.
 
